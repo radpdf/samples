@@ -1,0 +1,15 @@
+﻿@page
+
+@{
+    ViewBag.Title = "RAD PDF Samples";
+}
+
+<h1>RAD PDF Samples</h1>
+<ul>
+	<li><a href="/Basic/">Basic</a></li>
+	<li><a href="/RenderAtClient/">Render At Client</a></li>
+</ul>
+NOTE: These samples use Lite documents (no SQL Server).
+By default, these samples use <i>MemoryLiteStorageProvider.cs</i> to replace the default Lite Document storage provider (the RAD PDF System Service).
+<i>MemoryLiteStorageProvider.cs</i> is not recommended for production use.
+Instead consider changing <i>CustomIntegrationProvider.cs</i> to use something like <i>BlobLiteStorageProvider.cs</i> (a sample code also provided here); it uses Azure's Storage Blob API. 

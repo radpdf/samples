@@ -1,0 +1,16 @@
+﻿@{
+	ViewBag.Title = "RAD PDF Samples";
+}
+
+<h1>RAD PDF Samples</h1>
+<ul>
+	<li><a href="@Url.Action("", "Basic")">Basic</a></li>
+	<li><a href="@Url.Action("", "Customized")">Customized</a></li>
+	<li><a href="@Url.Action("", "Lite")">Lite</a> (use RAD PDF without a database)</li>
+</ul>
+
+<h2>Notes for use with MVC:</h2>
+<ul>
+	<li>An ignore route must be added so that the RAD PDF HTTP Handler is accessible, see <i>Global.asax.cs</i>.</li>
+	<li>Your layout view must be updated to include the output of RenderHead() in the &lt;head&gt; element, see <i>/Views/Shared/_Layout.cshtml</i>.</li>
+</ul>

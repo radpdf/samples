@@ -1,0 +1,4 @@
+{
+  "AzureStorageConnectionString": "<Connection string of your Azure Blob Storage account>",
+  "AzureStorageContainerName": "radpdf"
+}

@@ -1,0 +1,25 @@
+﻿@using System.Web.UI.WebControls;
+
+@using RadPdf.Web.UI;
+
+@*
+To use the Client API, the following code must be in the <head> element of your View's HTML:
+@Html.Raw(RadPdf.Web.UI.PdfWebControl.RenderHead())
+
+See: /Views/Shared/_Layout.cshtml
+*@
+
+@{
+	ViewBag.Title = "RAD PDF Basic Sample";
+
+	// Get web control from ViewBag
+	PdfWebControl pdfWebControl1 = ViewBag.PdfWebControl1;
+
+	// Set control's properties
+	pdfWebControl1.ID = "PdfWebControl1"; // Important if Client API is to be used!
+	pdfWebControl1.Height = new Unit("600px");
+	pdfWebControl1.Width = new Unit("100%");
+
+	// Render web control to body
+	@Html.Raw(pdfWebControl1.RenderControl())
+}
