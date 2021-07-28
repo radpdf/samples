@@ -2,7 +2,7 @@
 
 using RadPdf.Lite;
 
-partial class _Upload : System.Web.UI.Page
+partial class lite_Upload : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

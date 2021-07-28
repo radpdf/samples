@@ -10,7 +10,7 @@ using RadPdf.Data.Document.Objects.FormFields;
 using RadPdf.Data.Document.Objects.Shapes;
 using RadPdf.Data.Document.Pages;
 
-partial class _Default : System.Web.UI.Page
+partial class signatures_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

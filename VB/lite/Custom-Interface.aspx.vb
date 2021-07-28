@@ -3,7 +3,7 @@ Option Strict On
 
 Imports RadPdf.Data.Document
 
-Partial Class Custom_Interface
+Partial Class lite_Custom_Interface
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

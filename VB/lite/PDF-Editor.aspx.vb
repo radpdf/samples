@@ -8,7 +8,7 @@ Imports RadPdf.Data.Document.Objects
 Imports RadPdf.Data.Document.Objects.FormFields
 Imports RadPdf.Data.Document.Objects.Shapes
 
-Partial Class PDF_Editor
+Partial Class lite_PDF_Editor
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -27,22 +27,22 @@ Partial Class PDF_Editor
 
             'Fill out PDF field using field names
             DirectCast( _
-              DocumentEditor1.Fields.Find("First Name"),  _
+              DocumentEditor1.Fields.Find("First Name"), _
               PdfTextField _
               ).Value = "John"
             DirectCast( _
-              DocumentEditor1.Fields.Find("Last Name"),  _
+              DocumentEditor1.Fields.Find("Last Name"), _
               PdfTextField _
               ).Value = "Smith"
             DirectCast( _
-              DocumentEditor1.Fields.Find("Product Support"),  _
+              DocumentEditor1.Fields.Find("Product Support"), _
               PdfCheckField _
               ).Checked = True
 
             'Add arrow object
             Dim a As PdfArrowShape = _
               DirectCast( _
-              DocumentEditor1.Pages(0).CreateObject(PdfObjectCreatable.ShapeArrow),  _
+              DocumentEditor1.Pages(0).CreateObject(PdfObjectCreatable.ShapeArrow), _
               PdfArrowShape)
             a.LineColor = New PdfColor(Color.Blue)
             a.LineWidth = 2
@@ -56,7 +56,7 @@ Partial Class PDF_Editor
             'Add text form field object
             Dim f As PdfTextField = _
               DirectCast( _
-              DocumentEditor1.Pages(0).CreateObject(PdfObjectCreatable.FormFieldText),  _
+              DocumentEditor1.Pages(0).CreateObject(PdfObjectCreatable.FormFieldText), _
               PdfTextField)
             f.Resizable = False
             f.Stylable = False

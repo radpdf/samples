@@ -11,7 +11,7 @@ using RadPdf.Data.Document.Objects.Shapes;
 using RadPdf.Data.Document.Pages;
 using RadPdf.Lite;
 
-partial class _Default : System.Web.UI.Page
+partial class lite_signatures_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

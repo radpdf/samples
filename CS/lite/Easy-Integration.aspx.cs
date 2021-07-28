@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using RadPdf.Integration;
 
-partial class Easy_Integration : System.Web.UI.Page
+partial class lite_Easy_Integration : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

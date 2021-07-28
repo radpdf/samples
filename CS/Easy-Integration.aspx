@@ -1,4 +1,4 @@
-<%@ Page Language="C#" CodeFile="Easy-Integration.aspx.cs" Inherits="Easy_Integration" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Easy-Integration.aspx.cs" CodeFile="Easy-Integration.aspx.cs" Inherits="Easy_Integration" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

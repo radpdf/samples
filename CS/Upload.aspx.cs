@@ -1,6 +1,6 @@
 ﻿using System;
 
-partial class _Upload : System.Web.UI.Page
+partial class Upload : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

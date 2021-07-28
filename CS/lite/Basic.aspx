@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" CodeFile="Basic.aspx.cs" Inherits="_Basic" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Basic.aspx.cs" CodeFile="Basic.aspx.cs" Inherits="lite_Basic" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 
@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <radPdf:PdfWebControlLite id="PdfWebControlLite1" runat="server" height="600px" width="100%" />
+        <radPdf:PdfWebControlLite id="PdfWebControl1" runat="server" height="600px" width="100%" />
     </div>
     </form>
 </body>

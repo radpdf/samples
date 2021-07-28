@@ -4,7 +4,7 @@ Option Strict On
 Imports System.Diagnostics
 Imports RadPdf.Integration
 
-Partial Class Easy_Integration
+Partial Class lite_Easy_Integration
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

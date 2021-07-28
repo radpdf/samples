@@ -1,4 +1,4 @@
-<%@ Page Language="VB" CodeFile="PDF-Editor.aspx.vb" Inherits="PDF_Editor" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="PDF-Editor.aspx.vb" CodeFile="PDF-Editor.aspx.vb" Inherits="PDF_Editor" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

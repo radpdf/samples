@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" CodeFile="Upload.aspx.vb" Inherits="_Upload" %>
+﻿<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Upload.aspx.vb"  CodeFile="Upload.aspx.vb" Inherits="lite_Upload" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

@@ -14,7 +14,7 @@ Imports RadPdf.Data.Document.Objects.Shapes
 Imports RadPdf.Data.Document.Pages
 Imports RadPdf.Lite
 
-Partial Class _Default
+Partial Class lite_signatures_Default
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

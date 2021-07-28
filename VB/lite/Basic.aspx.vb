@@ -1,7 +1,7 @@
 ﻿Option Explicit On
 Option Strict On
 
-Partial Class _Basic
+Partial Class lite_Basic
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

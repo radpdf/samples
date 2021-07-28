@@ -13,7 +13,7 @@ Imports RadPdf.Data.Document.Objects.FormFields
 Imports RadPdf.Data.Document.Objects.Shapes
 Imports RadPdf.Data.Document.Pages
 
-Partial Class _Default
+Partial Class signatures_Default
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

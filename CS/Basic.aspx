@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" CodeFile="Basic.aspx.cs" Inherits="_Basic" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Basic.aspx.cs" CodeFile="Basic.aspx.cs" Inherits="Basic"  %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

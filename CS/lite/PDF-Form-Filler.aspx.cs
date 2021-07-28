@@ -2,7 +2,7 @@ using System;
 using RadPdf.Data.Document;
 using RadPdf.Lite;
 
-partial class PDF_Form_Filler : System.Web.UI.Page
+partial class lite_PDF_Form_Filler : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

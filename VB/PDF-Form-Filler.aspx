@@ -1,4 +1,4 @@
-<%@ Page Language="VB" CodeFile="PDF-Form-Filler.aspx.vb" Inherits="PDF_Form_Filler" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="PDF-Form-Filler.aspx.vb" CodeFile="PDF-Form-Filler.aspx.vb" Inherits="PDF_Form_Filler" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

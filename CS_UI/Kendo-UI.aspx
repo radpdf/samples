@@ -1,4 +1,4 @@
-<%@ Page Language="C#" CodeFile="Kendo-UI.aspx.cs" Inherits="Kendo_UI" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="~/Kendo-UI.aspx.cs" CodeFile="Kendo-UI.aspx.cs" Inherits="Kendo_UI" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-partial class _Basic : System.Web.UI.Page
+partial class lite_Basic : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -10,7 +10,7 @@ partial class _Basic : System.Web.UI.Page
             byte[] pdfData = System.IO.File.ReadAllBytes(Server.MapPath("~/pdfs/RadPdfSampleForm.pdf"));
 
             //Load PDF byte array into RAD PDF
-            this.PdfWebControlLite1.CreateDocument("Document Name", pdfData);
+            this.PdfWebControl1.CreateDocument("Document Name", pdfData);
         }
     }
 }

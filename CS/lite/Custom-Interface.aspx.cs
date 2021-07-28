@@ -1,7 +1,7 @@
 using System;
 using RadPdf.Data.Document;
 
-partial class Custom_Interface : System.Web.UI.Page
+partial class lite_Custom_Interface : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

@@ -1,4 +1,4 @@
-<%@ Page Language="VB" CodeFile="Custom-Interface.aspx.vb" Inherits="Custom_Interface" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Custom-Interface.aspx.vb"  CodeFile="Custom-Interface.aspx.vb" Inherits="lite_Custom_Interface" %>
 
 <%@ Register Assembly="RadPdf" Namespace="RadPdf.Web.UI" TagPrefix="radPdf" %>
 

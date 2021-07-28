@@ -4,7 +4,7 @@ Option Strict On
 Imports RadPdf.Data.Document
 Imports RadPdf.Lite
 
-Partial Class PDF_Form_Filler
+Partial Class lite_PDF_Form_Filler
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
