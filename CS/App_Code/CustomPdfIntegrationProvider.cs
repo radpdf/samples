@@ -13,6 +13,9 @@ public class CustomPdfIntegrationProvider : PdfIntegrationProvider
 {
     public CustomPdfIntegrationProvider() : base()
     {
+        // Uncomment this line to not use the RAD PDF System Service for rendering, if using Lite Documents, a LiteStorageProvider must also be implemented
+        //this.AdvancedSettings.UseService = false;
+
         // Assign our resources file to be used by the PdfWebControl
         this.PdfWebControlResources = Resources.PdfWebControlResources.ResourceManager;
 
