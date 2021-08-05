@@ -1,18 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
-
+<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UseRazorBuildServer>false</UseRazorBuildServer>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Azure.Storage.Blobs" Version="12.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
-    <PackageReference Include="RadPdfCore" Version="*" />
+    <PackageReference Include="RadPdf" Version="3.22.1" />
   </ItemGroup>
-
 </Project>

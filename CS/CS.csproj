@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,10 +40,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RadPdf">
-      <HintPath>bin\RadPdf.dll</HintPath>
-      <HintPath>C:\Program Files\RAD PDF\WebControl\RadPdf.dll</HintPath>
-      <HintPath>$(ProgramFiles)\RAD PDF\WebControl\RadPdf.dll</HintPath>
+    <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath Condition="Exists('bin\RadPdf.dll')">bin\RadPdf.dll</HintPath>
+      <HintPath Condition="Exists('C:\Program Files\RAD PDF\WebControl\RadPdf.dll')">C:\Program Files\RAD PDF\WebControl\RadPdf.dll</HintPath>
+      <HintPath Condition="Exists('$(ProgramFiles)\RAD PDF\WebControl\RadPdf.dll')">$(ProgramFiles)\RAD PDF\WebControl\RadPdf.dll</HintPath>
+      <HintPath Condition="Exists('..\packages\RadPdf.3.22.1\lib\net35\RadPdf.dll')">..\packages\RadPdf.3.22.1\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -204,6 +207,9 @@
     <Content Include="pdfs\RadPdfSampleForm.pdf" />
     <Content Include="signatures\web.config" />
     <Content Include="utilities\WhatsMyIntegrationProvidersName.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
