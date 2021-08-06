@@ -36,9 +36,7 @@
   <ItemGroup>
     <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath Condition="Exists('C:\Program Files\RAD PDF\WebControl\RadPdf.dll')">C:\Program Files\RAD PDF\WebControl\RadPdf.dll</HintPath>
-      <HintPath Condition="Exists('$(ProgramFiles)\RAD PDF\WebControl\RadPdf.dll')">$(ProgramFiles)\RAD PDF\WebControl\RadPdf.dll</HintPath>
-      <HintPath Condition="Exists('..\packages\RadPdf.3.22.1\lib\net35\RadPdf.dll')">..\packages\RadPdf.3.22.1\lib\net35\RadPdf.dll</HintPath>
+      <HintPath>..\packages\RadPdf.3.22.1\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -81,6 +79,7 @@
     <Compile Include="RadPdf\CustomPdfIntegrationProvider.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
