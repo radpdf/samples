@@ -9,6 +9,8 @@ namespace RadPdfCoreDemoNoService
         public string AzureStorageConnectionString { get; set; }
         public string AzureStorageContainerName { get; set; }
 
+        public string S3BucketName { get; set; }
+
         public static AppSettings LoadAppSettings()
         {
             IConfigurationRoot configRoot = new ConfigurationBuilder()
