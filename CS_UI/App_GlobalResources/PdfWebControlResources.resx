@@ -884,6 +884,10 @@
     <value>Multi-line</value>
     <comment>Properties dialog text for Text Form Field Multi-line flag</comment>
   </data>
+  <data name="PropertiesObjectFieldTextPassword" xml:space="preserve">
+    <value>Password</value>
+    <comment>Properties dialog text for Text Form Field Password flag</comment>
+  </data>
   <data name="PropertiesObjectFieldType" xml:space="preserve">
     <value>Type</value>
     <comment>Properties dialog text for Form Field type</comment>
@@ -1420,6 +1424,10 @@
     <value>Redo</value>
     <comment>Keyword used for "Redo"</comment>
   </data>
+  <data name="KeywordVisible" xml:space="preserve">
+    <value>Visible</value>
+    <comment>Keyword used for "Visible"</comment>
+  </data>
   <data name="PropertiesObjectRotation" xml:space="preserve">
     <value>Rotation</value>
     <comment>Property text for Object Rotation</comment>
@@ -1431,5 +1439,105 @@
   <data name="ButtonNextFieldDescription" xml:space="preserve">
     <value>Go To Next Form Field</value>
     <comment>Button Description used for Next Field</comment>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Upload Document</value>
+    <comment>Empty Dialog Text</comment>
+  </data>
+  <data name="EmptyFile" xml:space="preserve">
+    <value>PDF File</value>
+    <comment>Append Dialog File Selection Text</comment>
+  </data>
+  <data name="EmptyFileDrop" xml:space="preserve">
+    <value>Drop File Here</value>
+    <comment>Append Dialog File Drop Text</comment>
+  </data>
+  <data name="AlertUploadError" xml:space="preserve">
+    <value>Error uploading file</value>
+    <comment>Alert popup when an appending error occurs</comment>
+  </data>
+  <data name="AlertUploadErrorNotPdf" xml:space="preserve">
+    <value>File is not a PDF.</value>
+    <comment>Alert popup when an upload error occurs because the uploaded data is not a PDF</comment>
+  </data>
+  <data name="AlertUploadErrorPageMaximum" xml:space="preserve">
+    <value>This file has more pages than the configured limit ({0})</value>
+    <comment>Alert popup when an upload error occurs because the resulting document would have too many pages</comment>
+  </data>
+  <data name="AlertUploadErrorPageWidthMaximum" xml:space="preserve">
+    <value>This file has one or more pages wider than the configured maximum ({0}")</value>
+    <comment>Alert popup when an upload occurs because the resulting document would have one or more pages wider than the maximum width</comment>
+  </data>
+  <data name="AlertUploadErrorPageHeightMaximum" xml:space="preserve">
+    <value>This file has one or more pages taller than the configured maximum ({0}")</value>
+    <comment>Alert popup when an upload occurs because the resulting document would have one or more pages taller than the maximum height</comment>
+  </data>
+  <data name="AlertUploadErrorParser" xml:space="preserve">
+    <value>File could not be parsed and may be corrupt.</value>
+    <comment>Alert popup when an upload error occurs because the uploaded data can not be parsed as a valid file</comment>
+  </data>
+  <data name="AlertUploadErrorPassword" xml:space="preserve">
+    <value>File is password protected.</value>
+    <comment>Alert popup when an upload error occurs because the uploaded data is password protected</comment>
+  </data>
+  <data name="AlertUploadErrorUnsupported" xml:space="preserve">
+    <value>File is not a suppported file type.</value>
+    <comment>Alert popup when an upload error occurs because the uploaded data is not a supported type</comment>
+  </data>
+  <data name="AlertServerResponseNotFound" xml:space="preserve">
+    <value>Document key has expired or resource can not be found. Try reloading this page.</value>
+    <comment>Alert popup when a server response indicates that the document key provided is likely expired or invalid.</comment>
+  </data>
+  <data name="AlertServerResponseTooLarge" xml:space="preserve">
+    <value>Upload is larger than the server configuration allows. Please choose a smaller file.</value>
+    <comment>Alert popup when a server response indicates that the request entity is too large.</comment>
+  </data>
+  <data name="DateFormatMonth01" xml:space="preserve">
+    <value>January</value>
+    <comment>Date format string for the 1st month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth02" xml:space="preserve">
+    <value>February</value>
+    <comment>Date format string for the 2nd month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth03" xml:space="preserve">
+    <value>March</value>
+    <comment>Date format string for the 3rd month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth04" xml:space="preserve">
+    <value>April</value>
+    <comment>Date format string for the 4th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth05" xml:space="preserve">
+    <value>May</value>
+    <comment>Date format string for the 5th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth06" xml:space="preserve">
+    <value>June</value>
+    <comment>Date format string for the 6th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth07" xml:space="preserve">
+    <value>July</value>
+    <comment>Date format string for the 7th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth08" xml:space="preserve">
+    <value>August</value>
+    <comment>Date format string for the 8th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth09" xml:space="preserve">
+    <value>September</value>
+    <comment>Date format string for the 9th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth10" xml:space="preserve">
+    <value>October</value>
+    <comment>Date format string for the 10th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth11" xml:space="preserve">
+    <value>November</value>
+    <comment>Date format string for the 11th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth12" xml:space="preserve">
+    <value>December</value>
+    <comment>Date format string for the 12th month of the year.</comment>
   </data>
 </root>

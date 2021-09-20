@@ -1492,4 +1492,68 @@
     <value>Upload is larger than the server configuration allows. Please choose a smaller file.</value>
     <comment>Alert popup when a server response indicates that the request entity is too large.</comment>
   </data>
+  <data name="DateFormatMonth01" xml:space="preserve">
+    <value>January</value>
+    <comment>Date format string for the 1st month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth02" xml:space="preserve">
+    <value>February</value>
+    <comment>Date format string for the 2nd month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth03" xml:space="preserve">
+    <value>March</value>
+    <comment>Date format string for the 3rd month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth04" xml:space="preserve">
+    <value>April</value>
+    <comment>Date format string for the 4th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth05" xml:space="preserve">
+    <value>May</value>
+    <comment>Date format string for the 5th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth06" xml:space="preserve">
+    <value>June</value>
+    <comment>Date format string for the 6th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth07" xml:space="preserve">
+    <value>July</value>
+    <comment>Date format string for the 7th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth08" xml:space="preserve">
+    <value>August</value>
+    <comment>Date format string for the 8th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth09" xml:space="preserve">
+    <value>September</value>
+    <comment>Date format string for the 9th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth10" xml:space="preserve">
+    <value>October</value>
+    <comment>Date format string for the 10th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth11" xml:space="preserve">
+    <value>November</value>
+    <comment>Date format string for the 11th month of the year.</comment>
+  </data>
+  <data name="DateFormatMonth12" xml:space="preserve">
+    <value>December</value>
+    <comment>Date format string for the 12th month of the year.</comment>
+  </data>
+  <data name="KeywordMonth" xml:space="preserve">
+    <value>Month</value>
+    <comment>Keyword used for "Month"</comment>
+  </data>
+  <data name="KeywordNext" xml:space="preserve">
+    <value>Next</value>
+    <comment>Keyword used for "Next"</comment>
+  </data>
+  <data name="KeywordPrevious" xml:space="preserve">
+    <value>Previous</value>
+    <comment>Keyword used for "Previous"</comment>
+  </data>
+  <data name="KeywordYear" xml:space="preserve">
+    <value>Year</value>
+    <comment>Keyword used for "Year"</comment>
+  </data>
 </root>

@@ -430,6 +430,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Document key has expired or resource can not be found. Try reloading this page..
+        /// </summary>
+        internal static string AlertServerResponseNotFound {
+            get {
+                return ResourceManager.GetString("AlertServerResponseNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upload is larger than the server configuration allows. Please choose a smaller file..
+        /// </summary>
+        internal static string AlertServerResponseTooLarge {
+            get {
+                return ResourceManager.GetString("AlertServerResponseTooLarge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please wait until the necessary resources are ready..
         /// </summary>
         internal static string AlertTextUnrendered {
@@ -448,11 +466,83 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error uploading file.
+        /// </summary>
+        internal static string AlertUploadError {
+            get {
+                return ResourceManager.GetString("AlertUploadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please upload one file at a time..
         /// </summary>
         internal static string AlertUploadErrorFileCount {
             get {
                 return ResourceManager.GetString("AlertUploadErrorFileCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File is not a PDF..
+        /// </summary>
+        internal static string AlertUploadErrorNotPdf {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorNotPdf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This file has one or more pages taller than the configured maximum ({0}&quot;).
+        /// </summary>
+        internal static string AlertUploadErrorPageHeightMaximum {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorPageHeightMaximum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This file has more pages than the configured limit ({0}).
+        /// </summary>
+        internal static string AlertUploadErrorPageMaximum {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorPageMaximum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This file has one or more pages wider than the configured maximum ({0}&quot;).
+        /// </summary>
+        internal static string AlertUploadErrorPageWidthMaximum {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorPageWidthMaximum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File could not be parsed and may be corrupt..
+        /// </summary>
+        internal static string AlertUploadErrorParser {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorParser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File is password protected..
+        /// </summary>
+        internal static string AlertUploadErrorPassword {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File is not a suppported file type..
+        /// </summary>
+        internal static string AlertUploadErrorUnsupported {
+            get {
+                return ResourceManager.GetString("AlertUploadErrorUnsupported", resourceCulture);
             }
         }
         
@@ -790,11 +880,146 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to January.
+        /// </summary>
+        internal static string DateFormatMonth01 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to February.
+        /// </summary>
+        internal static string DateFormatMonth02 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to March.
+        /// </summary>
+        internal static string DateFormatMonth03 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth03", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to April.
+        /// </summary>
+        internal static string DateFormatMonth04 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth04", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to May.
+        /// </summary>
+        internal static string DateFormatMonth05 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth05", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to June.
+        /// </summary>
+        internal static string DateFormatMonth06 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth06", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to July.
+        /// </summary>
+        internal static string DateFormatMonth07 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth07", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to August.
+        /// </summary>
+        internal static string DateFormatMonth08 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth08", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to September.
+        /// </summary>
+        internal static string DateFormatMonth09 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth09", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to October.
+        /// </summary>
+        internal static string DateFormatMonth10 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to November.
+        /// </summary>
+        internal static string DateFormatMonth11 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to December.
+        /// </summary>
+        internal static string DateFormatMonth12 {
+            get {
+                return ResourceManager.GetString("DateFormatMonth12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sticky Note.
         /// </summary>
         internal static string DefaultObjectAnnotTextSubject {
             get {
                 return ResourceManager.GetString("DefaultObjectAnnotTextSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upload Document.
+        /// </summary>
+        internal static string Empty {
+            get {
+                return ResourceManager.GetString("Empty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PDF File.
+        /// </summary>
+        internal static string EmptyFile {
+            get {
+                return ResourceManager.GetString("EmptyFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drop File Here.
+        /// </summary>
+        internal static string EmptyFileDrop {
+            get {
+                return ResourceManager.GetString("EmptyFileDrop", resourceCulture);
             }
         }
         
@@ -1011,6 +1236,15 @@ namespace Resources {
         internal static string KeywordView {
             get {
                 return ResourceManager.GetString("KeywordView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Visible.
+        /// </summary>
+        internal static string KeywordVisible {
+            get {
+                return ResourceManager.GetString("KeywordVisible", resourceCulture);
             }
         }
         
@@ -1812,6 +2046,15 @@ namespace Resources {
         internal static string PropertiesObjectFieldTextMultiline {
             get {
                 return ResourceManager.GetString("PropertiesObjectFieldTextMultiline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string PropertiesObjectFieldTextPassword {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFieldTextPassword", resourceCulture);
             }
         }
         

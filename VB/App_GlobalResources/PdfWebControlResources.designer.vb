@@ -884,6 +884,114 @@ Namespace Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to January.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth01() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth01", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to February.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth02() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth02", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to March.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth03() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth03", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to April.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth04() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth04", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to May.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth05() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth05", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to June.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth06() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth06", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to July.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth07() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth07", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to August.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth08() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth08", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to September.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth09() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth09", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to October.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth10() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth10", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to November.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth11() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth11", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to December.
+        '''</summary>
+        Friend Shared ReadOnly Property DateFormatMonth12() As String
+            Get
+                Return ResourceManager.GetString("DateFormatMonth12", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Sticky Note.
         '''</summary>
         Friend Shared ReadOnly Property DefaultObjectAnnotTextSubject() As String
@@ -1010,6 +1118,24 @@ Namespace Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Month.
+        '''</summary>
+        Friend Shared ReadOnly Property KeywordMonth() As String
+            Get
+                Return ResourceManager.GetString("KeywordMonth", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Next.
+        '''</summary>
+        Friend Shared ReadOnly Property KeywordNext() As String
+            Get
+                Return ResourceManager.GetString("KeywordNext", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to No.
         '''</summary>
         Friend Shared ReadOnly Property KeywordNo() As String
@@ -1042,6 +1168,15 @@ Namespace Resources
         Friend Shared ReadOnly Property KeywordPage() As String
             Get
                 Return ResourceManager.GetString("KeywordPage", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Previous.
+        '''</summary>
+        Friend Shared ReadOnly Property KeywordPrevious() As String
+            Get
+                Return ResourceManager.GetString("KeywordPrevious", resourceCulture)
             End Get
         End Property
         
@@ -1150,6 +1285,15 @@ Namespace Resources
         Friend Shared ReadOnly Property KeywordWidth() As String
             Get
                 Return ResourceManager.GetString("KeywordWidth", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Year.
+        '''</summary>
+        Friend Shared ReadOnly Property KeywordYear() As String
+            Get
+                Return ResourceManager.GetString("KeywordYear", resourceCulture)
             End Get
         End Property
         
