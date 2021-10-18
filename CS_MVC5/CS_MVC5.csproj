@@ -54,7 +54,7 @@
     </Reference>
     <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RadPdf.3.24.0\lib\net35\RadPdf.dll</HintPath>
+      <HintPath>..\packages\RadPdf.3.25.0\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Entity" />
