@@ -35,7 +35,7 @@ namespace RadPdfCoreDemoNoService
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc(options => options.EnableEndpointRouting = false);
 
             //Default RAD PDF session provider relies on ASP.NET session state.
             //A custom session provider can be used to avoid use of this.
