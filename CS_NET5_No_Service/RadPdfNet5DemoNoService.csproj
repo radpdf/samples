@@ -8,6 +8,7 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="RadPdf" Version="3.25.0" />
+    <PackageReference Include="RadPdf" Version="3.25.2" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.80.3" />
   </ItemGroup>
 </Project>

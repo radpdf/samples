@@ -36,5 +36,15 @@
 		<li><a href="lite/signatures">Signatures</a></li>
 		<li><a href="lite/Upload.aspx">Upload</a></li>
 	</ul>
+
+	<h2>No Service Samples</h2>
+	<p>
+	These samples demonstrate how to run RAD PDF without the RAD PDF System Service. 
+	It's important to remember that for high traffic websites, Red Software recommends using the RAD PDF System Service as it allows for smarter caching, additional rendering options, and other important optimizations.
+	</p>
+	<ul>
+		<li><a href="no-service/Lite.aspx">Lite Document</a></li>
+		<li><a href="no-service/Sql.aspx">SQL Server Based Document</a></li>
+	</ul>
 </body>
 </html>
