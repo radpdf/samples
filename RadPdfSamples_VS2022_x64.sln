@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.x64", "CS\CS.x64.csproj", "{AAF7DECE-E77F-441F-92E2-03D9834AE6C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfCoreDemo", "CS_Core\RadPdfCoreDemo.csproj", "{8A2D6838-9A19-48EA-AFE4-A2373FE8978E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfCoreDemoNoService", "CS_Core_No_Service\RadPdfCoreDemoNoService.csproj", "{CE4C9F26-0147-47A5-B384-4C556B046C4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet5Demo", "CS_NET5\RadPdfNet5Demo.csproj", "{BDC724AD-6143-4BA6-9410-D9656E2CB239}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet5DemoNoService", "CS_NET5_No_Service\RadPdfNet5DemoNoService.csproj", "{838F928C-E036-4899-8CE6-6E620A056FC0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB.x64", "VB\VB.x64.vbproj", "{74400F56-C1BB-41CF-A869-E55AF7A690D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAF7DECE-E77F-441F-92E2-03D9834AE6C1}.Debug|x64.ActiveCfg = Debug|x64
+		{AAF7DECE-E77F-441F-92E2-03D9834AE6C1}.Debug|x64.Build.0 = Debug|x64
+		{AAF7DECE-E77F-441F-92E2-03D9834AE6C1}.Release|x64.ActiveCfg = Release|x64
+		{AAF7DECE-E77F-441F-92E2-03D9834AE6C1}.Release|x64.Build.0 = Release|x64
+		{8A2D6838-9A19-48EA-AFE4-A2373FE8978E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A2D6838-9A19-48EA-AFE4-A2373FE8978E}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A2D6838-9A19-48EA-AFE4-A2373FE8978E}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A2D6838-9A19-48EA-AFE4-A2373FE8978E}.Release|x64.Build.0 = Release|Any CPU
+		{CE4C9F26-0147-47A5-B384-4C556B046C4A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE4C9F26-0147-47A5-B384-4C556B046C4A}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE4C9F26-0147-47A5-B384-4C556B046C4A}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE4C9F26-0147-47A5-B384-4C556B046C4A}.Release|x64.Build.0 = Release|Any CPU
+		{BDC724AD-6143-4BA6-9410-D9656E2CB239}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BDC724AD-6143-4BA6-9410-D9656E2CB239}.Debug|x64.Build.0 = Debug|Any CPU
+		{BDC724AD-6143-4BA6-9410-D9656E2CB239}.Release|x64.ActiveCfg = Release|Any CPU
+		{BDC724AD-6143-4BA6-9410-D9656E2CB239}.Release|x64.Build.0 = Release|Any CPU
+		{838F928C-E036-4899-8CE6-6E620A056FC0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{838F928C-E036-4899-8CE6-6E620A056FC0}.Debug|x64.Build.0 = Debug|Any CPU
+		{838F928C-E036-4899-8CE6-6E620A056FC0}.Release|x64.ActiveCfg = Release|Any CPU
+		{838F928C-E036-4899-8CE6-6E620A056FC0}.Release|x64.Build.0 = Release|Any CPU
+		{74400F56-C1BB-41CF-A869-E55AF7A690D8}.Debug|x64.ActiveCfg = Debug|x64
+		{74400F56-C1BB-41CF-A869-E55AF7A690D8}.Debug|x64.Build.0 = Debug|x64
+		{74400F56-C1BB-41CF-A869-E55AF7A690D8}.Release|x64.ActiveCfg = Release|x64
+		{74400F56-C1BB-41CF-A869-E55AF7A690D8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F10A6DE8-0EE4-4EC7-B146-0D11A1607A58}
+	EndGlobalSection
+EndGlobal
