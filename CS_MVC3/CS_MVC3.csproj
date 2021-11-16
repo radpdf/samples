@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RadPdf.3.25.3\lib\net35\RadPdf.dll</HintPath>
+      <HintPath>..\packages\RadPdf.3.26.0\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -146,5 +146,5 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\RadPdf.3.25.3\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.25.3\build\RadPdf.targets')" />
+  <Import Project="..\packages\RadPdf.3.26.0\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.26.0\build\RadPdf.targets')" />
 </Project>

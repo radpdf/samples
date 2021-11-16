@@ -11,6 +11,7 @@
 	<h2>PdfWebControl Samples</h2>
 	<p>
 	These samples use <a href="https://www.radpdf.com/RadPdfDocumentation/html/21f146e0-0ef6-b97c-12fe-f11bd6f53665.htm" target="_blank">PdfWebControl</a> and require <a href="https://www.radpdf.com/RadPdfDocumentation/html/db15338c-0b76-4f4c-aa32-b4ea6f26b4a0.htm" target="_blank">a SQL Server database</a>. 
+	<a href="https://github.com/radpdf/samples/blob/main/SQL/create_all_tables.sql" style="font-size:small" target="_blank">(SQL Server setup script)</a>
 	</p>
 	<ul>
 		<li><a href="Basic.aspx">Basic</a></li>
