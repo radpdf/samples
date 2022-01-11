@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RadPdf.3.26.0\lib\net35\RadPdf.dll</HintPath>
+      <HintPath>..\packages\RadPdf.3.27.0\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -114,6 +114,7 @@
     <Content Include="App_GlobalResources\PdfWebControlResources.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>PdfWebControlResources.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -127,24 +128,6 @@
   <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
     <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
   </Target>
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
-        <WebProjectProperties>
-          <UseIIS>False</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53330</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
-        </WebProjectProperties>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-  <Import Project="..\packages\RadPdf.3.26.0\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.26.0\build\RadPdf.targets')" />
+  <ProjectExtensions />
+  <Import Project="..\packages\RadPdf.3.27.0\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.27.0\build\RadPdf.targets')" />
 </Project>

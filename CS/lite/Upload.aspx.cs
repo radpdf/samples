@@ -12,6 +12,6 @@ partial class lite_Upload : System.Web.UI.Page
         settings.MaxPdfPageHeight = 100 * settings.RenderDpi;
 
         // Create empty document to upload into
-        this.PdfWebControl1.CreateEmptyDocument("RadPdfDemo", settings);
+        this.PdfWebControl1.CreateEmptyDocument(settings);
     }
 }

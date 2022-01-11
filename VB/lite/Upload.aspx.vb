@@ -16,7 +16,7 @@ Partial Class lite_Upload
             settings.MaxPdfPageHeight = 100 * settings.RenderDpi
 
             ' Create empty document to upload into
-            Me.PdfWebControl1.CreateEmptyDocument("RadPdfDemo", settings)
+            Me.PdfWebControl1.CreateEmptyDocument(settings)
 
         End If
     End Sub
