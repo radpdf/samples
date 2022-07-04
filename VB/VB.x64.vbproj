@@ -45,7 +45,7 @@
   <ItemGroup>
     <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RadPdf.3.30.0\lib\net35\RadPdf.dll</HintPath>
+      <HintPath>..\packages\RadPdf.3.31.1\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -326,7 +326,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\RadPdf.3.30.0\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.30.0\build\RadPdf.targets')" />
+  <Import Project="..\packages\RadPdf.3.31.1\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.31.1\build\RadPdf.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
