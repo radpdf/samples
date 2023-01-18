@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
-  Copyright 2007 - 2022 Red Software.
+  Copyright 2007 - 2023 Red Software.
   All Rights Reserved.
 
   This file and its contents may only be used to the extent, in the manner and 
@@ -1539,5 +1539,21 @@
   <data name="DateFormatMonth12" xml:space="preserve">
     <value>December</value>
     <comment>Date format string for the 12th month of the year.</comment>
+  </data>
+  <data name="KeywordMonth" xml:space="preserve">
+    <value>Month</value>
+    <comment>Keyword used for "Month"</comment>
+  </data>
+  <data name="KeywordNext" xml:space="preserve">
+    <value>Next</value>
+    <comment>Keyword used for "Next"</comment>
+  </data>
+  <data name="KeywordPrevious" xml:space="preserve">
+    <value>Previous</value>
+    <comment>Keyword used for "Previous"</comment>
+  </data>
+  <data name="KeywordYear" xml:space="preserve">
+    <value>Year</value>
+    <comment>Keyword used for "Year"</comment>
   </data>
 </root>

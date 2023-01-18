@@ -1114,6 +1114,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Month.
+        /// </summary>
+        internal static string KeywordMonth {
+            get {
+                return ResourceManager.GetString("KeywordMonth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Next.
+        /// </summary>
+        internal static string KeywordNext {
+            get {
+                return ResourceManager.GetString("KeywordNext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No.
         /// </summary>
         internal static string KeywordNo {
@@ -1146,6 +1164,15 @@ namespace Resources {
         internal static string KeywordPage {
             get {
                 return ResourceManager.GetString("KeywordPage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Previous.
+        /// </summary>
+        internal static string KeywordPrevious {
+            get {
+                return ResourceManager.GetString("KeywordPrevious", resourceCulture);
             }
         }
         
@@ -1254,6 +1281,15 @@ namespace Resources {
         internal static string KeywordWidth {
             get {
                 return ResourceManager.GetString("KeywordWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Year.
+        /// </summary>
+        internal static string KeywordYear {
+            get {
+                return ResourceManager.GetString("KeywordYear", resourceCulture);
             }
         }
         

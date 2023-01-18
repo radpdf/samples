@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet6Demo", "CS_NET6\R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet6DemoNoService", "CS_NET6_No_Service\RadPdfNet6DemoNoService.csproj", "{8F126F84-E9A2-4677-BC2E-ACC4220FFDF0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet7Demo", "CS_NET7\RadPdfNet7Demo.csproj", "{DD906793-9E3D-4814-BC6B-1FE93F6A8E36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -57,6 +59,10 @@ Global
 		{8F126F84-E9A2-4677-BC2E-ACC4220FFDF0}.Debug|x64.Build.0 = Debug|Any CPU
 		{8F126F84-E9A2-4677-BC2E-ACC4220FFDF0}.Release|x64.ActiveCfg = Release|Any CPU
 		{8F126F84-E9A2-4677-BC2E-ACC4220FFDF0}.Release|x64.Build.0 = Release|Any CPU
+		{DD906793-9E3D-4814-BC6B-1FE93F6A8E36}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DD906793-9E3D-4814-BC6B-1FE93F6A8E36}.Debug|x64.Build.0 = Debug|Any CPU
+		{DD906793-9E3D-4814-BC6B-1FE93F6A8E36}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD906793-9E3D-4814-BC6B-1FE93F6A8E36}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
