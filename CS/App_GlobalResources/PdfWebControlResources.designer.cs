@@ -1681,7 +1681,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set Margins.
+        ///   Looks up a localized string similar to Printer Margins.
         /// </summary>
         internal static string PrintMargin {
             get {
@@ -1690,7 +1690,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For A4 Size Paper.
+        ///   Looks up a localized string similar to For A4 Size Paper At 100%.
         /// </summary>
         internal static string PrintMarginA4 {
             get {
@@ -1699,7 +1699,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For Letter Size Paper.
+        ///   Looks up a localized string similar to For Letter Size Paper At 100%.
         /// </summary>
         internal static string PrintMarginLetter {
             get {
@@ -1708,7 +1708,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do Not Alter.
+        ///   Looks up a localized string similar to Browser Default.
         /// </summary>
         internal static string PrintMarginNone {
             get {
@@ -2266,11 +2266,29 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bold.
+        /// </summary>
+        internal static string PropertiesObjectFontBoldFull {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFontBoldFull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to I.
         /// </summary>
         internal static string PropertiesObjectFontItalic {
             get {
                 return ResourceManager.GetString("PropertiesObjectFontItalic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Italic.
+        /// </summary>
+        internal static string PropertiesObjectFontItalicFull {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFontItalicFull", resourceCulture);
             }
         }
         
@@ -2289,6 +2307,15 @@ namespace Resources {
         internal static string PropertiesObjectFontUnderline {
             get {
                 return ResourceManager.GetString("PropertiesObjectFontUnderline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Underline.
+        /// </summary>
+        internal static string PropertiesObjectFontUnderlineFull {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFontUnderlineFull", resourceCulture);
             }
         }
         
