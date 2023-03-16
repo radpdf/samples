@@ -294,7 +294,8 @@ function showProperties(o)
         opPositionWidthData.value(p.width);
         opPositionHeightData.value(p.height); 
 
-        $("#op-save input").click(function()
+        $("#op-save input").off();
+        $("#op-save input").on("click", function()
         {
             var p =
             {
