@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using RadPdf.Lite;
 using RadPdf.Web.UI;
 
-namespace RadPdfNet5Demo.Pages
+namespace RadPdfNet7Demo.Pages
 {
     public class CustomizedModel : PageModel
     {
