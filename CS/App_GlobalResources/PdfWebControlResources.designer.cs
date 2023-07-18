@@ -2356,6 +2356,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Redact Text (experimental).
+        /// </summary>
+        internal static string PropertiesObjectRedactText {
+            get {
+                return ResourceManager.GetString("PropertiesObjectRedactText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rotation.
         /// </summary>
         internal static string PropertiesObjectRotation {

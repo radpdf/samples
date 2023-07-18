@@ -946,11 +946,11 @@
   </data>
   <data name="PropertiesObjectFontBold" xml:space="preserve">
     <value>B</value>
-    <comment>Property text for Object Font Bold</comment>
+    <comment>Property text for Object Font Bold (short)</comment>
   </data>
   <data name="PropertiesObjectFontItalic" xml:space="preserve">
     <value>I</value>
-    <comment>Property text for Object Font Italic</comment>
+    <comment>Property text for Object Font Italic (short)</comment>
   </data>
   <data name="PropertiesObjectFontSize" xml:space="preserve">
     <value>Size</value>
@@ -958,7 +958,7 @@
   </data>
   <data name="PropertiesObjectFontUnderline" xml:space="preserve">
     <value>U</value>
-    <comment>Property text for Object Font Underline</comment>
+    <comment>Property text for Object Font Underline (short)</comment>
   </data>
   <data name="PropertiesObjectLineWidth" xml:space="preserve">
     <value>Line Width</value>
@@ -1293,20 +1293,20 @@
     <comment>Print Dialog Text</comment>
   </data>
   <data name="PrintMargin" xml:space="preserve">
-    <value>Set Margins</value>
-    <comment>Print Dialog Margin Text</comment>
+    <value>Printer Margins</value>
+    <comment>Print Dialog Margin Text (for browsers that do not fully support @page directives)</comment>
   </data>
   <data name="PrintMarginA4" xml:space="preserve">
-    <value>For A4 Size Paper</value>
+    <value>For A4 Size Paper At 100%</value>
     <comment>Print Dialog Margin A4 Text</comment>
   </data>
   <data name="PrintMarginLetter" xml:space="preserve">
-    <value>For Letter Size Paper</value>
+    <value>For Letter Size Paper At 100%</value>
     <comment>Print Dialog Margin Letter Text</comment>
   </data>
   <data name="PrintMarginNone" xml:space="preserve">
-    <value>Do Not Alter</value>
-    <comment>Print Dialog Margin None Text</comment>
+    <value>Browser Default</value>
+    <comment>Print Dialog Margin Default / None Text</comment>
   </data>
   <data name="PrintMarginWarning" xml:space="preserve">
     <value>*Please note that using this option may crop some portions of the page when printing files with tight margins.</value>
@@ -1555,5 +1555,21 @@
   <data name="KeywordYear" xml:space="preserve">
     <value>Year</value>
     <comment>Keyword used for "Year"</comment>
+  </data>
+  <data name="PropertiesObjectFontBoldFull" xml:space="preserve">
+    <value>Bold</value>
+    <comment>Property text for Object Font Bold (full)</comment>
+  </data>
+  <data name="PropertiesObjectFontItalicFull" xml:space="preserve">
+    <value>Italic</value>
+    <comment>Property text for Object Font Italic (full)</comment>
+  </data>
+  <data name="PropertiesObjectFontUnderlineFull" xml:space="preserve">
+    <value>Underline</value>
+    <comment>Property text for Object Font Underline (full)</comment>
+  </data>
+  <data name="PropertiesObjectRedactText" xml:space="preserve">
+    <value>Redact Text (BETA)</value>
+    <comment>Property text for Object Redacting Text inside the area of the object - this feature is in BETA</comment>
   </data>
 </root>

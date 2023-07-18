@@ -1568,4 +1568,8 @@
     <value>Underline</value>
     <comment>Property text for Object Font Underline (full)</comment>
   </data>
+  <data name="PropertiesObjectRedactText" xml:space="preserve">
+    <value>Redact Text (experimental)</value>
+    <comment>Property text for Object Redacting Text inside the area of the object - this feature is experimental and may not function as expected</comment>
+  </data>
 </root>
