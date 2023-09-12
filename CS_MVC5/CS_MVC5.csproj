@@ -59,7 +59,7 @@
     </Reference>
     <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RadPdf.3.38.2\lib\net35\RadPdf.dll</HintPath>
+      <HintPath>..\packages\RadPdf.3.39.0\lib\net35\RadPdf.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Entity" />
@@ -210,5 +210,5 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\RadPdf.3.38.2\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.38.2\build\RadPdf.targets')" />
+  <Import Project="..\packages\RadPdf.3.39.0\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.3.39.0\build\RadPdf.targets')" />
 </Project>
