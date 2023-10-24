@@ -1,0 +1,45 @@
+﻿@page "/"
+
+<HeadContent>
+    @((MarkupString)PdfWebControl.RenderHead())
+</HeadContent>
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+@* Render web control to body *@
+@((MarkupString)pdfWebControl1.RenderControl())
+
+@* Add a Client API button *@
+<button onclick="(new PdfWebControlApi()).save();return false;">Save</button>
+
+@code {
+
+    @using RadPdf.Data.Document.Pages;
+    @using RadPdf.Web.UI;
+
+    private PdfWebControlLite pdfWebControl1;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        // Get PDF Stream
+        var pdf = typeof(BlazorApp1.App).Assembly.GetManifestResourceStream("BlazorApp1.pdfs.RadPdfSampleForm.pdf");
+
+        // Create RAD PDF control (WITHOUT an HttpContext)
+        pdfWebControl1 = new PdfWebControlLite(null);
+
+        // Set control's properties
+        pdfWebControl1.ID = "PdfWebControl1"; // Important if Client API is to be used!
+        pdfWebControl1.Height = "600px";
+        pdfWebControl1.Width = "100%";
+
+        // Use Client API?
+        pdfWebControl1.OnClientLoad = "console.log(\"RAD PDF \" + this.getVersion());";
+
+        // Load PDF
+        pdfWebControl1.CreateDocument("Document Name", pdf);
+    }
+}
