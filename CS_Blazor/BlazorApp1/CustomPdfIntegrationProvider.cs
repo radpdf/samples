@@ -15,5 +15,9 @@ public class CustomPdfIntegrationProvider : PdfIntegrationProvider
     {
         // Replace this session provide with your own
         this.LiteSessionProvider = new CustomPdfLiteSessionProvider();
+
+        // Run without the RAD PDF System Service? (uncomment the next two lines)
+        // this.AdvancedSettings.UseService = false;
+        // this.LiteStorageProvider = new MemoryLiteStorageProvider(); // NOTE: This storage mechanism is for demonstration purposes and not recommended in production
     }
 }
