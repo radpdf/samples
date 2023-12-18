@@ -8,6 +8,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
-    <PackageReference Include="RadPdf" Version="3.40.1" />
+    <PackageReference Include="RadPdf" Version="3.41.0" />
   </ItemGroup>
 </Project>

@@ -11,6 +11,6 @@
     <EmbeddedResource Include="pdfs\RadPdfSampleForm.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="RadPdf" Version="3.40.1" />
+    <PackageReference Include="RadPdf" Version="3.41.0" />
   </ItemGroup>
 </Project>
