@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 using RadPdf.Web.UI;
 
-namespace RadPdfNet7Demo.Pages
+namespace RadPdfNet8Demo.Pages
 {
     public class RenderAtClientModel : PageModel
     {

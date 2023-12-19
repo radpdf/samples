@@ -59,8 +59,21 @@ namespace RadPdfCoreDemo
             // A custom session provider can be used to avoid use of this.
             app.UseSession();
 
-            // Create middleware settings (add UseService = false to run RAD PDF without the System Service)
-            RadPdfCoreMiddlewareSettings settings = new RadPdfCoreMiddlewareSettings() { ConnectionString = @"Server=.\SQLExpress;Database=RadPdf;Trusted_Connection=Yes;", LicenseKey = "DEMO" };
+
+            // Create middleware settings
+            RadPdfCoreMiddlewareSettings settings = new RadPdfCoreMiddlewareSettings()
+            {
+                // Add SQL Server Connection String, if not using Lite Documents
+                // Sample connection string below connects to a SQL Server Express instance on localhost
+                // Encrypt=False is set to avoid trust exception (e.g. "The certificate chain was issued by an authority that is not trusted.")
+                ConnectionString = @"Server=.\SQLExpress;Database=RadPdf;Encrypt=False;Trusted_Connection=Yes;",
+
+                // Add License Key
+                LicenseKey = "DEMO",
+
+                // To run RAD PDF without the System Service, add UseService = false
+                // If using Lite Documents without the System Service, a LiteStorageProvider must also be implemented
+            };
 
             // Add RAD PDF's middleware to app
             app.UseRadPdf(settings);
