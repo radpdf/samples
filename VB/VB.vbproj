@@ -97,10 +97,6 @@
     <Content Include="lite\PDF-Form-Filler.aspx" />
     <Content Include="lite\signatures\Default.aspx" />
     <Content Include="lite\Upload.aspx" />
-    <Content Include="obj\Debug\TempPE\App_GlobalResources.PdfWebControlResources.designer.vb.dll" />
-    <Content Include="obj\Release\VB.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release\VB.dll" />
-    <Content Include="obj\Release\VB.pdb" />
     <Content Include="PDF-Editor.aspx" />
     <Content Include="PDF-Form-Filler.aspx" />
     <Content Include="signatures\Default.aspx" />
@@ -163,11 +159,6 @@
     <Content Include="App_Code\CustomPdfLiteSessionProvider.vb" />
     <Content Include="App_Code\CustomPdfLiteStorageProvider.vb" />
     <Content Include="App_Code\SignaturesPdfIntegrationProvider.vb" />
-    <Compile Include="App_GlobalResources\PdfWebControlResources.designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PdfWebControlResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="lite\Basic.aspx.designer.vb">
       <DependentUpon>Basic.aspx</DependentUpon>
     </Compile>
