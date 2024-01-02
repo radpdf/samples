@@ -65,8 +65,8 @@ namespace RadPdfCoreDemoNoService
             {
                 // Add SQL Server Connection String, if not using Lite Documents
                 // Sample connection string below connects to a SQL Server Express instance on localhost
-                // Encrypt=False is set to avoid trust exception (e.g. "The certificate chain was issued by an authority that is not trusted.")
-                ConnectionString = @"Server=.\SQLExpress;Database=RadPdf;Encrypt=False;Trusted_Connection=Yes;",
+                // TrustServerCertificate=True is set to avoid a trust exception (e.g. "The certificate chain was issued by an authority that is not trusted.")
+                ConnectionString = @"Server=.\SQLExpress;Database=RadPdf;Trusted_Connection=Yes;TrustServerCertificate=True;",
 
                 // Add License Key
                 LicenseKey = "DEMO",

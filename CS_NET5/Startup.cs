@@ -61,11 +61,11 @@ namespace RadPdfNet5Demo
             {
                 // Add SQL Server Connection String, if not using Lite Documents
                 // Sample connection string below connects to a SQL Server Express instance on localhost
-                // Encrypt=False is set to avoid trust exception (e.g. "The certificate chain was issued by an authority that is not trusted.")
-                ConnectionString = @"Server=.\SQLExpress;Database=RadPdf;Encrypt=False;Trusted_Connection=Yes;",
+                // TrustServerCertificate=True is set to avoid a trust exception (e.g. "The certificate chain was issued by an authority that is not trusted.")
+                ConnectionString = @"Server=.\SQLExpress;Database=RadPdf;Trusted_Connection=Yes;TrustServerCertificate=True;",
 
                 // Add License Key
-                LicenseKey = "DEMO",
+                LicenseKey = "DEMO"
 
                 // To run RAD PDF without the System Service, add UseService = false
                 // If using Lite Documents without the System Service, a LiteStorageProvider must also be implemented
