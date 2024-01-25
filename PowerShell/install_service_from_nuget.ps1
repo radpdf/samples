@@ -11,6 +11,7 @@ $RegistryPathWcf= $RegistryPathBase + "Wcf"
 
 $RenderCacheLocation = "$Env:ProgramData\RadPdf\Cache\"
 $RenderCacheLocationAr = New-Object System.Security.AccessControl.FileSystemAccessRule("Users", "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
+$RenderHelperArch = "win-x86"
 
 # Register nuget.org as package source
 Register-PackageSource -Name MyNuGet -Location https://www.nuget.org/api/v2 -ProviderName NuGet -Force
@@ -20,9 +21,14 @@ Install-Package -Name RadPdf -SkipDependencies -Source MyNuGet -Force
 
 # Get folder package RAD PDF was installed into
 $FolderName = (Get-ChildItem "$Env:ProgramFiles\PackageManagement\NuGet\Packages" -Directory -Filter 'RadPdf.*' | Sort-Object -Property Name -Descending).Name
-$Folder = "$Env:ProgramFiles\PackageManagement\NuGet\Packages\" + $FolderName + "\service\win\"
+$FolderPackage = "$Env:ProgramFiles\PackageManagement\NuGet\Packages\" + $FolderName + "\"
+$FolderService = $FolderPackage + "service\win\"
 
-$ServiceExe = $Folder + "RadPdfService.exe"
+$ServiceExe = $FolderService + "RadPdfService.exe"
+
+# Copy rendering DLL
+$DllPath = $FolderPackage + "runtimes\" + $RenderHelperArch + "\native\RadPdfD.dll"
+Copy-Item -Path $DllPath -Destination $FolderService -Force
 
 # Install RAD PDF System Service
 Start-Process -FilePath $ServiceExe -ArgumentList "-i" -NoNewWindow -Wait
