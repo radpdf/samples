@@ -8,6 +8,8 @@ using RadPdfDemoNoService.CustomProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDistributedMemoryCache();
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSession();

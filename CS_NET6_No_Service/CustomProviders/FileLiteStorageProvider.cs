@@ -4,63 +4,66 @@ using System.Web;
 
 using RadPdf.Lite;
 
-// Not in use by default
-// Uncomment the approprate line in CustomPdfIntegrationProvider.cs
-public class FileLiteStorageProvider : PdfLiteStorageProvider
+namespace RadPdfDemoNoService.CustomProviders
 {
-    private readonly DirectoryInfo _dir;
-
-    public FileLiteStorageProvider(string path)
-        : base()
+    // Not in use by default
+    // Uncomment the approprate line in CustomPdfIntegrationProvider.cs
+    public class FileLiteStorageProvider : PdfLiteStorageProvider
     {
-        _dir = new DirectoryInfo(path);
+        private readonly DirectoryInfo _dir;
 
-        if (!_dir.Exists)
+        public FileLiteStorageProvider(string path)
+            : base()
         {
-            _dir.Create();
-        }
-    }
+            _dir = new DirectoryInfo(path);
 
-    private string GetPath(PdfLiteSession session, int subtype)
-    {
-        return Path.Combine(_dir.FullName, session.ID.ToString("N") + "-" + subtype.ToString() + ".dat");
-    }
-
-    public override void DeleteData(PdfLiteSession session)
-    {
-        FileInfo[] files = _dir.GetFiles(session.ID.ToString("N") + "*");
-
-        foreach (FileInfo file in files)
-        {
-            lock (string.Intern(file.FullName))
+            if (!_dir.Exists)
             {
-                file.Delete();
+                _dir.Create();
             }
         }
-    }
 
-    public override byte[] GetData(PdfLiteSession session, int subtype)
-    {
-        string path = GetPath(session, subtype);
-
-        lock (string.Intern(path))
+        private string GetPath(PdfLiteSession session, int subtype)
         {
-            if (!File.Exists(path))
-            {
-                return null;
-            }
-
-            return File.ReadAllBytes(path);
+            return Path.Combine(_dir.FullName, session.ID.ToString("N") + "-" + subtype.ToString() + ".dat");
         }
-    }
 
-    public override void SetData(PdfLiteSession session, int subtype, byte[] value)
-    {
-        string path = GetPath(session, subtype);
-
-        lock (string.Intern(path))
+        public override void DeleteData(PdfLiteSession session)
         {
-            File.WriteAllBytes(path, value);
+            FileInfo[] files = _dir.GetFiles(session.ID.ToString("N") + "*");
+
+            foreach (FileInfo file in files)
+            {
+                lock (string.Intern(file.FullName))
+                {
+                    file.Delete();
+                }
+            }
+        }
+
+        public override byte[] GetData(PdfLiteSession session, int subtype)
+        {
+            string path = GetPath(session, subtype);
+
+            lock (string.Intern(path))
+            {
+                if (!File.Exists(path))
+                {
+                    return null;
+                }
+
+                return File.ReadAllBytes(path);
+            }
+        }
+
+        public override void SetData(PdfLiteSession session, int subtype, byte[] value)
+        {
+            string path = GetPath(session, subtype);
+
+            lock (string.Intern(path))
+            {
+                File.WriteAllBytes(path, value);
+            }
         }
     }
 }

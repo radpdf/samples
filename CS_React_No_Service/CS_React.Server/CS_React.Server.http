@@ -1,0 +1,6 @@
+@CS_React.Server_HostAddress = http://localhost:5030
+
+GET {{CS_React.Server_HostAddress}}/radpdf/test/
+Accept: text/html
+
+###

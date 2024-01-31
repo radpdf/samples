@@ -13,8 +13,9 @@ namespace RadPdfDemoNoService.CustomProviders
 
             // When using Lite Documents and no service, we must provide a custom storage
             // provider implementation because the default storage provider uses the System Service!
-            // Here we have implemented a basic in-memory storage provider for demonstration purposes.
-            this.LiteStorageProvider = new MemoryLiteStorageProvider();
+            // Here we have implemented a basic in-memory storage provider using a IDistributedCache
+            // service instance for demonstration purposes.
+            this.LiteStorageProvider = new DistributedCacheStorageProvider();
 
             // It could better be implemented using other key-value store like Amazon Simple Storage Service (S3) (comment out the line above and uncomment below)
             //this.LiteStorageProvider = new S3LiteStorageProvider();

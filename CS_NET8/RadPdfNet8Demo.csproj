@@ -3,6 +3,6 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="RadPdf" Version="3.41.2" />
+    <PackageReference Include="RadPdf" Version="3.42.0" />
   </ItemGroup>
 </Project>
