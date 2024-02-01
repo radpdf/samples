@@ -1,0 +1,13 @@
+<h1 id="tableLabel">RAD PDF Angular Sample Code</h1>
+
+<p>This component demonstrates using RAD PDF with Angular.</p>
+
+<p *ngIf="!radpdf"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
+
+<div *ngIf="radpdf">
+
+  <input type="hidden" [id]="radpdf.viewStateID" [name]="radpdf.viewStateID" [value]="radpdf.viewState" />
+
+  <iframe [id]="radpdf.clientID" [src]="radpdf.safeFrameUrl" style="height:800px;width:100%;"></iframe>
+
+</div>

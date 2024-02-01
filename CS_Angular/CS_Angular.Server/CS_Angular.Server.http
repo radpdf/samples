@@ -1,0 +1,6 @@
+@CS_Angular.Server_HostAddress = http://localhost:5062
+
+GET {{CS_Angular.Server_HostAddress}}/radpdf/default
+Accept: application/json
+
+###
