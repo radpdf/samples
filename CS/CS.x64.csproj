@@ -68,6 +68,8 @@
     <Content Include="lite\Custom-Interface.aspx" />
     <Content Include="lite\Default.aspx" />
     <Content Include="lite\Easy-Integration.aspx" />
+    <Content Include="lite\offline\Default.aspx" />
+    <Content Include="lite\offline\offline-service-worker.js" />
     <Content Include="lite\PDF-Editor.aspx" />
     <Content Include="lite\PDF-Form-Filler.aspx" />
     <Content Include="lite\signatures\Default.aspx" />
@@ -75,6 +77,8 @@
     <Content Include="no-service\Sql.aspx" />
     <Content Include="no-service\Default.aspx" />
     <Content Include="no-service\Lite.aspx" />
+    <Content Include="offline\Default.aspx" />
+    <Content Include="offline\offline-service-worker.js" />
     <Content Include="PDF-Editor.aspx" />
     <Content Include="PDF-Form-Filler.aspx" />
     <Content Include="signatures\Default.aspx" />
@@ -116,6 +120,13 @@
     <Compile Include="lite\Easy-Integration.aspx.designer.cs">
       <DependentUpon>Easy-Integration.aspx</DependentUpon>
     </Compile>
+    <Compile Include="lite\offline\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\offline\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="lite\PDF-Editor.aspx.designer.cs">
       <DependentUpon>PDF-Editor.aspx</DependentUpon>
     </Compile>
@@ -141,6 +152,13 @@
     </Compile>
     <Compile Include="no-service\Lite.aspx.designer.cs">
       <DependentUpon>Lite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="offline\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="offline\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="PDF-Editor.aspx.cs">
       <DependentUpon>PDF-Editor.aspx</DependentUpon>
