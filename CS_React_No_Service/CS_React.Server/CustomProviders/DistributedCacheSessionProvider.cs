@@ -6,7 +6,7 @@ using RadPdf.Lite;
 
 namespace CS_React.Server.CustomProviders
 {
-    public class DistributedCacheSessionProvider : PdfLiteSessionProvider
+    public class DistributedCacheSessionProvider : PdfLiteSessionProvider, IUpdateableLiteSessionProvider
     {
         public override string AddSession(HttpContext context, PdfLiteSession session)
         {
@@ -27,6 +27,11 @@ namespace CS_React.Server.CustomProviders
             }
 
             return PdfLiteSession.Deserialize(data);
+        }
+
+        public void UpdateSession(HttpContext context, string key, PdfLiteSession session)
+        {
+            context.RequestServices.GetService<IDistributedCache>().Set(key, session.Serialize());
         }
     }
 }

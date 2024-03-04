@@ -50,7 +50,7 @@ partial class signatures_Default : System.Web.UI.Page
             image.Left = 13 * dpi / 4;
             image.Width = dpi * 2;
             image.Height = dpi / 2;
-            image.CustomData = "signature";
+            image.CustomData = "MyImageSignature";
             image.Deletable = false;
             image.Duplicatable = false;
             image.Moveable = false;
@@ -75,6 +75,7 @@ partial class signatures_Default : System.Web.UI.Page
             signaturePopup.Width = dpi * 2;
             signaturePopup.Height = dpi / 2;
             signaturePopup.Border = new PdfBorder(2, PdfBorderStyle.Solid, new PdfColor(Color.Black));
+            signaturePopup.CustomData = "MyPopupSignature";
             signaturePopup.Font.Name = "Signature";
             signaturePopup.Font.Size = dpi / 4;
             signaturePopup.PenColor = new PdfColor(Color.Blue);
@@ -141,6 +142,7 @@ partial class signatures_Default : System.Web.UI.Page
             pHint.Left = 13 * dpi / 4;
             pHint.Width = dpi * 2;
             pHint.Height = dpi / 4;
+            pHint.CustomData = "MyPopupHint";
             pHint.Font.Name = "Arial";
             pHint.Font.Size = dpi / 8;
             pHint.Changeable = false;

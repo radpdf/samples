@@ -123,7 +123,7 @@ Public Class SignaturesPdfIntegrationProvider
 
         Select Case context.Request.DataKey
 
-            Case "signature"
+            Case "MyImageSignature"
                 ' Write a file to the response
                 ' Alternatively, we could also use the .Write method to write data from almost any source (e.g. database, memory, etc.)
                 context.Response.WriteFile(HttpContext.Current.Server.MapPath("~/signatures/images/signature.gif"))

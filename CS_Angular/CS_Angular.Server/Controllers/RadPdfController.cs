@@ -36,7 +36,7 @@ namespace CS_Angular.Server.Controllers
             {
                 ClientID = radpdf.ClientID,
                 FrameUrl = radpdf.RenderFrameUrl(),
-                ViewState = "{}",
+                ViewState = radpdf.RenderViewStateJson(),
                 ViewStateID = radpdf.ClientID + "_ViewState",
             };
         }

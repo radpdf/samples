@@ -54,7 +54,7 @@ Partial Class signatures_Default
             image.Left = 13 * dpi \ 4
             image.Width = dpi * 2
             image.Height = dpi \ 2
-            image.CustomData = "signature"
+            image.CustomData = "MyImageSignature"
             image.Deletable = False
             image.Duplicatable = False
             image.Moveable = False
@@ -79,6 +79,7 @@ Partial Class signatures_Default
             signaturePopup.Width = dpi * 2
             signaturePopup.Height = dpi \ 2
             signaturePopup.Border = New PdfBorder(2, PdfBorderStyle.Solid, New PdfColor(Color.Black))
+            signaturePopup.CustomData = "MyPopupSignature"
             signaturePopup.Font.Name = "Signature"
             signaturePopup.Font.Size = dpi / 4
             signaturePopup.PenColor = New PdfColor(Color.Blue)
@@ -145,6 +146,7 @@ Partial Class signatures_Default
             pHint.Left = 13 * dpi \ 4
             pHint.Width = dpi * 2
             pHint.Height = dpi \ 4
+            pHint.CustomData = "MyPopupHint"
             pHint.Font.Name = "Arial"
             pHint.Font.Size = dpi / 8
             pHint.Changeable = False

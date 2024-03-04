@@ -15,15 +15,51 @@
             // Get api instance
             var api = new PdfWebControlApi(id);
 
+            // Function for finding object by customData
+            function findObject(s)
+            {
+                for( var i = 1; i <= api.getPageCount(); i++ )
+                {
+                    var p = api.getPage(i);
+
+                    for( var j = 0; j < p.getObjectCount(); j++ )
+                    {
+                        var o = p.getObject(j);
+
+                        if( o.getProperties()["customData"] == s )
+                        {
+                            return o;
+                        }
+                    }
+                }
+            }
+
             // Attach listeners
+            api.addEventListener(
+                "objectChanged", 
+                function(evt) {
+                    // Get properties of changed object
+                    var props = evt.obj.getProperties();
+
+                    // If the popup signature was changed (or signed)
+                    if( "MyPopupSignature" == props.customData )
+                    {
+                        // Change popup hint if signed
+                        var msg = props.isSigned ? "thank you for signing!" : "click above to sign via popup"
+
+                        // Update hint object
+                        findObject("MyPopupHint").setProperties( { "text" : msg } );
+                    }
+                }
+                );
             api.addEventListener(
                 "objectClicked", 
                 function(evt) {
-                    // If this is our special signature object
-                    if( "signature" == evt.obj.getProperties()["customData"] )
+                    // If this is our special image signature object
+                    if( "MyImageSignature" == evt.obj.getProperties()["customData"] )
                     {
                         // Set the image via key
-                        evt.obj.setImage("signature");
+                        evt.obj.setImage("MyImageSignature");
                     }
                 }
                 );
