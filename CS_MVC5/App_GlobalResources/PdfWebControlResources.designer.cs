@@ -2356,7 +2356,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Redact Text (BETA).
+        ///   Looks up a localized string similar to Redact Text (experimental).
         /// </summary>
         internal static string PropertiesObjectRedactText {
             get {
@@ -2455,11 +2455,38 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to View Comments.
+        /// </summary>
+        internal static string SideBarComments {
+            get {
+                return ResourceManager.GetString("SideBarComments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save &amp; Download PDF....
         /// </summary>
         internal static string SideBarDownload {
             get {
                 return ResourceManager.GetString("SideBarDownload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View Embedded Files.
+        /// </summary>
+        internal static string SideBarEmbeddedFiles {
+            get {
+                return ResourceManager.GetString("SideBarEmbeddedFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to download.
+        /// </summary>
+        internal static string SideBarEmbeddedFilesDownload {
+            get {
+                return ResourceManager.GetString("SideBarEmbeddedFilesDownload", resourceCulture);
             }
         }
         
@@ -2514,6 +2541,15 @@ namespace Resources {
         internal static string SideBookmarksEmpty {
             get {
                 return ResourceManager.GetString("SideBookmarksEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No embedded files.
+        /// </summary>
+        internal static string SideEmbeddedFilesEmpty {
+            get {
+                return ResourceManager.GetString("SideEmbeddedFilesEmpty", resourceCulture);
             }
         }
         
