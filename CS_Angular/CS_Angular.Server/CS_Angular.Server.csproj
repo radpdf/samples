@@ -17,6 +17,6 @@
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy">
       <Version>8.*-*</Version>
     </PackageReference>
-    <PackageReference Include="RadPdf" Version="3.47.0" />
+    <PackageReference Include="RadPdf" Version="3.48.0" />
   </ItemGroup>
 </Project>
