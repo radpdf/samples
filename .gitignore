@@ -4,6 +4,7 @@
 
 *.suo
 *.user
+.angular
 .git
 .vs
 bin
