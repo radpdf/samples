@@ -1,7 +1,7 @@
 ﻿/*
 RAD PDF Service Worker / Offline Cache Example
 
-Copyright (c) 2022 - 2024, Red Software (www.redsoftware.com)
+Copyright (c) 2022 - 2025, Red Software (www.redsoftware.com)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -54,6 +54,7 @@ TO IMPLEMENT:
 				{
 					if( ("activated" == e.target.state) && !swActive )
 					{
+						console.log("Service worker activated");
 						swActive = sw;
 
 						onRadPdfLoad();

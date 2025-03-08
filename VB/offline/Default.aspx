@@ -63,6 +63,7 @@
                 {
                     if( ("activated" == e.target.state) && !swActive )
                     {
+                        console.log("Service worker activated");
                         swActive = sw;
 
                         onRadPdfLoad();
