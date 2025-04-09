@@ -16,18 +16,18 @@ public class CustomPdfLiteSessionProvider : PdfLiteSessionProvider
     // persistent storage, but a database or other key /value store 
     // can easily be substituted. 
 #if NET40
-    private readonly ConcurrentDictionary<string, byte[]> _dict;
+    private readonly ConcurrentDictionary<string, string> _dict;
 #else
-    private readonly Dictionary<string, byte[]> _dict;
+    private readonly Dictionary<string, string> _dict;
 #endif
 
     public CustomPdfLiteSessionProvider()
         : base()
     {
 #if NET40
-        _dict = new ConcurrentDictionary<string, byte[]>();
+        _dict = new ConcurrentDictionary<string, string>();
 #else
-        _dict = new Dictionary<string, byte[]>();
+        _dict = new Dictionary<string, string>();
 #endif
     }
 
@@ -39,7 +39,7 @@ public class CustomPdfLiteSessionProvider : PdfLiteSessionProvider
         lock (_dict)
         {
 #endif
-            _dict[key] = session.Serialize();
+            _dict[key] = session.SerializeToJson();
 #if !NET40
         }
 #endif
@@ -48,7 +48,7 @@ public class CustomPdfLiteSessionProvider : PdfLiteSessionProvider
 
     public override PdfLiteSession GetSession(string key)
     {
-        byte[] data;
+        string data;
 
 #if !NET40
         lock (_dict)
@@ -64,6 +64,6 @@ public class CustomPdfLiteSessionProvider : PdfLiteSessionProvider
             return null;
         }
 
-        return PdfLiteSession.Deserialize(data);
+        return PdfLiteSession.DeserializeFromJson(data);
     }
 }

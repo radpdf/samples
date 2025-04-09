@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Reflection;
 using System.Resources;
 using System.Web;
 
@@ -19,5 +20,8 @@ public class CustomPdfIntegrationProvider : PdfIntegrationProvider
         // Run without the RAD PDF System Service? (uncomment the next two lines)
         // this.AdvancedSettings.UseService = false;
         // this.LiteStorageProvider = new MemoryLiteStorageProvider(); // NOTE: This storage mechanism is for demonstration purposes and not recommended in production
+
+        // Setup Custom Resources
+        // this.PdfWebControlResources = new ResourceManager("BlazorApp1.Resources.MyPdfWebControlResources", Assembly.GetExecutingAssembly());
     }
 }

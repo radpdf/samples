@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -11,6 +11,6 @@
     <EmbeddedResource Include="pdfs\RadPdfSampleForm.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="RadPdf" Version="4.1.0" />
+    <PackageReference Include="RadPdf" Version="4.2.0" />
   </ItemGroup>
 </Project>

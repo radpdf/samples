@@ -19,16 +19,16 @@ Public Class CustomPdfLiteSessionProvider
     ' persistent storage, but a database or other key /value store 
     ' can easily be substituted. 
 #If NET40 Then
-    Private ReadOnly _dict As ConcurrentDictionary(Of String, Byte())
+    Private ReadOnly _dict As ConcurrentDictionary(Of String, String)
 #Else
-    Private ReadOnly _dict As Dictionary(Of String, Byte())
+    Private ReadOnly _dict As Dictionary(Of String, String)
 #End If
 
     Public Sub New()
 #If NET40 Then
-        _dict = New ConcurrentDictionary(Of String, Byte())()
+        _dict = New ConcurrentDictionary(Of String, String)()
 #Else
-        _dict = New Dictionary(Of String, Byte())()
+        _dict = New Dictionary(Of String, String)()
 #End If
     End Sub
 
@@ -39,7 +39,7 @@ Public Class CustomPdfLiteSessionProvider
 #If Not NET40 Then
         SyncLock _dict
 #End If
-            _dict(key) = session.Serialize()
+            _dict(key) = session.SerializeToJson()
 #If Not NET40 Then
         End SyncLock
 #End If
@@ -50,7 +50,7 @@ Public Class CustomPdfLiteSessionProvider
 
     Public Overrides Function GetSession(ByVal key As String) As PdfLiteSession
 
-        Dim data As Byte()
+        Dim data As String
 
 #If Not NET40 Then
         SyncLock _dict
@@ -64,7 +64,7 @@ Public Class CustomPdfLiteSessionProvider
             Return Nothing
         End If
 
-        Return PdfLiteSession.Deserialize(data)
+        Return PdfLiteSession.DeserializeFromJson(data)
 
     End Function
 
