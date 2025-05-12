@@ -1033,6 +1033,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Image Field.
+        /// </summary>
+        internal static string ImageField {
+            get {
+                return ResourceManager.GetString("ImageField", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Angle.
         /// </summary>
         internal static string KeywordAngle {
@@ -1843,6 +1852,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Border Color.
+        /// </summary>
+        internal static string PropertiesObjectBorderColor {
+            get {
+                return ResourceManager.GetString("PropertiesObjectBorderColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to None.
         /// </summary>
         internal static string PropertiesObjectBorderNone {
@@ -2023,6 +2041,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Format.
+        /// </summary>
+        internal static string PropertiesObjectFieldFormat {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFieldFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
         internal static string PropertiesObjectFieldName {
@@ -2113,6 +2140,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Image Button.
+        /// </summary>
+        internal static string PropertiesObjectFieldTypeButtonImage {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFieldTypeButtonImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reset Button.
         /// </summary>
         internal static string PropertiesObjectFieldTypeButtonReset {
@@ -2172,6 +2208,15 @@ namespace Resources {
         internal static string PropertiesObjectFieldTypeText {
             get {
                 return ResourceManager.GetString("PropertiesObjectFieldTypeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date Field.
+        /// </summary>
+        internal static string PropertiesObjectFieldTypeTextDate {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFieldTypeTextDate", resourceCulture);
             }
         }
         
@@ -2559,6 +2604,15 @@ namespace Resources {
         internal static string StatusAppending {
             get {
                 return ResourceManager.GetString("StatusAppending", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Download Attachment.
+        /// </summary>
+        internal static string StatusDownloadAttachment {
+            get {
+                return ResourceManager.GetString("StatusDownloadAttachment", resourceCulture);
             }
         }
         

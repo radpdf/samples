@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS", "CS\CS.csproj", "{DF2831A5-1A42-4BA5-BAE9-FE1865977579}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS", "CS_WebForms\CS.csproj", "{DF2831A5-1A42-4BA5-BAE9-FE1865977579}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_MVC5", "CS_MVC5\CS_MVC5.csproj", "{E3B1713B-9634-4B60-889C-241BA46536B9}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet5Demo", "CS_NET5\R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet5DemoNoService", "CS_NET5_No_Service\RadPdfNet5DemoNoService.csproj", "{838F928C-E036-4899-8CE6-6E620A056FC0}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB\VB.vbproj", "{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB_WebForms\VB.vbproj", "{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

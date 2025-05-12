@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS", "CS\CS.csproj", "{DF2831A5-1A42-4BA5-BAE9-FE1865977579}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS", "CS_WebForms\CS.csproj", "{DF2831A5-1A42-4BA5-BAE9-FE1865977579}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_UI", "CS_UI\CS_UI.csproj", "{393525BD-A94D-405F-8723-6FD0D878F747}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB\VB.vbproj", "{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB_WebForms\VB.vbproj", "{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

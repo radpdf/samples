@@ -11,6 +11,8 @@ namespace RadPdfDemoNoService.CustomProviders
         {
             this.AdvancedSettings.UseService = false;
 
+            this.PdfWebControlResources = Resources.PdfWebControlResources.ResourceManager; //NOTE: PdfWebControlResources.resx uses BuildAction: EmbeddedResource CustomTool: PublicResXFileCodeGenerator, CustomToolNamespace: Resources
+
             // When using Lite Documents and no service, we must provide a custom storage
             // provider implementation because the default storage provider uses the System Service!
             // Here we have implemented a basic in-memory storage provider using a IDistributedCache

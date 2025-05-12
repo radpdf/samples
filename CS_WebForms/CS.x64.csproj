@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AAF7DECE-E77F-441F-92E2-03D9834AE6C1}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CS</RootNamespace>
+    <AssemblyName>CS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress>true</Use64BitIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RadPdf, Culture=neutral, PublicKeyToken=ceef76a2a0e50e3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RadPdf.4.3.0\lib\net35\RadPdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Basic.aspx" />
+    <Content Include="Custom-Interface.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Easy-Integration.aspx" />
+    <Content Include="images\signature.gif" />
+    <Content Include="lite\Basic.aspx" />
+    <Content Include="lite\Custom-Interface.aspx" />
+    <Content Include="lite\Default.aspx" />
+    <Content Include="lite\Easy-Integration.aspx" />
+    <Content Include="lite\offline\Default.aspx" />
+    <Content Include="lite\offline\offline-service-worker.js" />
+    <Content Include="lite\PDF-Editor.aspx" />
+    <Content Include="lite\PDF-Form-Filler.aspx" />
+    <Content Include="lite\signatures\Default.aspx" />
+    <Content Include="lite\Upload.aspx" />
+    <Content Include="no-service\Sql.aspx" />
+    <Content Include="no-service\Default.aspx" />
+    <Content Include="no-service\Lite.aspx" />
+    <Content Include="offline\Default.aspx" />
+    <Content Include="offline\offline-service-worker.js" />
+    <Content Include="PDF-Editor.aspx" />
+    <Content Include="PDF-Form-Filler.aspx" />
+    <Content Include="signatures\Default.aspx" />
+    <Content Include="signatures\images\empty.gif" />
+    <Content Include="signatures\images\signature.gif" />
+    <Content Include="Upload.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\SessionLiteStorageProvider.cs" />
+    <Content Include="App_Code\NoServicePdfIntegrationProvider.cs" />
+    <Compile Include="Basic.aspx.cs">
+      <DependentUpon>Basic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Basic.aspx.designer.cs">
+      <DependentUpon>Basic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Custom-Interface.aspx.cs">
+      <DependentUpon>Custom-Interface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Custom-Interface.aspx.designer.cs">
+      <DependentUpon>Custom-Interface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Easy-Integration.aspx.cs">
+      <DependentUpon>Easy-Integration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Easy-Integration.aspx.designer.cs">
+      <DependentUpon>Easy-Integration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\Basic.aspx.designer.cs">
+      <DependentUpon>Basic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\Custom-Interface.aspx.designer.cs">
+      <DependentUpon>Custom-Interface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\Easy-Integration.aspx.designer.cs">
+      <DependentUpon>Easy-Integration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\offline\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\offline\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\PDF-Editor.aspx.designer.cs">
+      <DependentUpon>PDF-Editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\PDF-Form-Filler.aspx.designer.cs">
+      <DependentUpon>PDF-Form-Filler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\signatures\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="no-service\Sql.aspx.cs">
+      <DependentUpon>Sql.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="no-service\Sql.aspx.designer.cs">
+      <DependentUpon>Sql.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="no-service\Lite.aspx.cs">
+      <DependentUpon>Lite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="no-service\Lite.aspx.designer.cs">
+      <DependentUpon>Lite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="offline\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="offline\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDF-Editor.aspx.cs">
+      <DependentUpon>PDF-Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDF-Editor.aspx.designer.cs">
+      <DependentUpon>PDF-Editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDF-Form-Filler.aspx.cs">
+      <DependentUpon>PDF-Form-Filler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDF-Form-Filler.aspx.designer.cs">
+      <DependentUpon>PDF-Form-Filler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signatures\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signatures\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\CustomPdfIntegrationProvider.cs" />
+    <Content Include="App_Code\CustomPdfLiteSessionProvider.cs" />
+    <Content Include="App_Code\CustomPdfLiteStorageProvider.cs" />
+    <Content Include="App_Code\SignaturesPdfIntegrationProvider.cs" />
+    <Content Include="App_Code\SqlServerPdfLiteSessionProvider.cs" />
+    <Content Include="App_Code\SqlServerPdfLiteStorageProvider.cs" />
+    <Compile Include="App_GlobalResources\PdfWebControlResources.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PdfWebControlResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="lite\Basic.aspx.cs">
+      <DependentUpon>Basic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\Custom-Interface.aspx.cs">
+      <DependentUpon>Custom-Interface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\Easy-Integration.aspx.cs">
+      <DependentUpon>Easy-Integration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\PDF-Editor.aspx.cs">
+      <DependentUpon>PDF-Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\PDF-Form-Filler.aspx.cs">
+      <DependentUpon>PDF-Form-Filler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\signatures\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lite\Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\PdfWebControlResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>PdfWebControlResources.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lite\signatures\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pdfs\RadPdfSampleForm.pdf" />
+    <Content Include="signatures\web.config" />
+    <Content Include="utilities\WhatsMyIntegrationProvidersName.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="no-service\web.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64037</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\RadPdf.4.3.0\build\RadPdf.targets" Condition="Exists('..\packages\RadPdf.4.3.0\build\RadPdf.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
