@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
-  Copyright 2007 - 2024 Red Software.
+  Copyright 2007 - 2025 Red Software.
   All Rights Reserved.
 
   This file and its contents may only be used to the extent, in the manner and 
@@ -788,6 +788,10 @@
     <value>None</value>
     <comment>Property text for Object Border if no border</comment>
   </data>
+  <data name="PropertiesObjectBorderColor" xml:space="preserve">
+    <value>Border Color</value>
+    <comment>Property text for Object Border Color</comment>
+  </data>
   <data name="PropertiesObjectBorderWidth" xml:space="preserve">
     <value>Border Width</value>
     <comment>Property text for Object Border Width</comment>
@@ -988,9 +992,13 @@
     <value>Please wait while this document is sent to your printer.</value>
     <comment>Status popup description line while Printing</comment>
   </data>
+  <data name="StatusDownloadAttachment" xml:space="preserve">
+    <value>Download Attachment</value>
+    <comment>Status popup for downloading an attachment</comment>
+  </data>
   <data name="StatusDownloadReady" xml:space="preserve">
     <value>Download Ready</value>
-    <comment>Status popup for downloading a PDF using Internet Explorer</comment>
+    <comment>Status popup for downloading a PDF using Internet Explorer or iOS</comment>
   </data>
   <data name="PropertiesObjectText" xml:space="preserve">
     <value>Text Options</value>
@@ -1587,5 +1595,21 @@
   <data name="SideBarEmbeddedFilesDownload" xml:space="preserve">
     <value>download</value>
     <comment>Side Bar Download Label for Embedded Files</comment>
+  </data>
+  <data name="ImageField" xml:space="preserve">
+    <value>Image Field</value>
+    <comment>Image Field Text</comment>
+  </data>
+  <data name="PropertiesObjectFieldTypeButtonImage" xml:space="preserve">
+    <value>Image Button</value>
+    <comment>Properties dialog text for Button Form Field type (with Image Upload action)</comment>
+  </data>
+  <data name="PropertiesObjectFieldTypeTextDate" xml:space="preserve">
+    <value>Date Field</value>
+    <comment>Properties dialog text for Text Form Field type (with date format)</comment>
+  </data>
+  <data name="PropertiesObjectFieldFormat" xml:space="preserve">
+    <value>Format</value>
+    <comment>Properties dialog text for Form Field Format</comment>
   </data>
 </root>
