@@ -2185,7 +2185,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Type.
+        ///   Looks up a localized string similar to Field Type.
         /// </summary>
         internal static string PropertiesObjectFieldType {
             get {
@@ -2262,6 +2262,15 @@ namespace Resources {
         internal static string PropertiesObjectFieldTypeRadio {
             get {
                 return ResourceManager.GetString("PropertiesObjectFieldTypeRadio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Signature.
+        /// </summary>
+        internal static string PropertiesObjectFieldTypeSignature {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFieldTypeSignature", resourceCulture);
             }
         }
         

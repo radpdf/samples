@@ -893,7 +893,7 @@
     <comment>Properties dialog text for Text Form Field Password flag</comment>
   </data>
   <data name="PropertiesObjectFieldType" xml:space="preserve">
-    <value>Type</value>
+    <value>Field Type</value>
     <comment>Properties dialog text for Form Field type</comment>
   </data>
   <data name="PropertiesObjectFieldTypeCheck" xml:space="preserve">
@@ -1639,5 +1639,9 @@
   <data name="DateFormatDay7" xml:space="preserve">
     <value>Saturday</value>
     <comment>Date format string for the 7th day of the week.</comment>
+  </data>
+  <data name="PropertiesObjectFieldTypeSignature" xml:space="preserve">
+    <value>Signature</value>
+    <comment>Properties dialog text for Signature Form Field type</comment>
   </data>
 </root>
