@@ -880,6 +880,69 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sunday.
+        /// </summary>
+        internal static string DateFormatDay1 {
+            get {
+                return ResourceManager.GetString("DateFormatDay1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monday.
+        /// </summary>
+        internal static string DateFormatDay2 {
+            get {
+                return ResourceManager.GetString("DateFormatDay2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tuesday.
+        /// </summary>
+        internal static string DateFormatDay3 {
+            get {
+                return ResourceManager.GetString("DateFormatDay3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wednesday.
+        /// </summary>
+        internal static string DateFormatDay4 {
+            get {
+                return ResourceManager.GetString("DateFormatDay4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thursday.
+        /// </summary>
+        internal static string DateFormatDay5 {
+            get {
+                return ResourceManager.GetString("DateFormatDay5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Friday.
+        /// </summary>
+        internal static string DateFormatDay6 {
+            get {
+                return ResourceManager.GetString("DateFormatDay6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saturday.
+        /// </summary>
+        internal static string DateFormatDay7 {
+            get {
+                return ResourceManager.GetString("DateFormatDay7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to January.
         /// </summary>
         internal static string DateFormatMonth01 {

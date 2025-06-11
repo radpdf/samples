@@ -1612,4 +1612,32 @@
     <value>Format</value>
     <comment>Properties dialog text for Form Field Format</comment>
   </data>
+  <data name="DateFormatDay1" xml:space="preserve">
+    <value>Sunday</value>
+    <comment>Date format string for the 1st day of the week.</comment>
+  </data>
+  <data name="DateFormatDay2" xml:space="preserve">
+    <value>Monday</value>
+    <comment>Date format string for the 2nd day of the week.</comment>
+  </data>
+  <data name="DateFormatDay3" xml:space="preserve">
+    <value>Tuesday</value>
+    <comment>Date format string for the 3rd day of the week.</comment>
+  </data>
+  <data name="DateFormatDay4" xml:space="preserve">
+    <value>Wednesday</value>
+    <comment>Date format string for the 4th day of the week.</comment>
+  </data>
+  <data name="DateFormatDay5" xml:space="preserve">
+    <value>Thursday</value>
+    <comment>Date format string for the 5th day of the week.</comment>
+  </data>
+  <data name="DateFormatDay6" xml:space="preserve">
+    <value>Friday</value>
+    <comment>Date format string for the 6th day of the week.</comment>
+  </data>
+  <data name="DateFormatDay7" xml:space="preserve">
+    <value>Saturday</value>
+    <comment>Date format string for the 7th day of the week.</comment>
+  </data>
 </root>
