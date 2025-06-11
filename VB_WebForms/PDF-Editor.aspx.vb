@@ -45,8 +45,8 @@ Partial Class PDF_Editor
               DocumentEditor1.Pages(0).CreateObject(PdfObjectCreatable.ShapeArrow),  _
               PdfArrowShape)
             a.LineColor = New PdfColor(Color.Blue)
-            a.LineWidth = 2
-            a.SetLine(200, 220, 40, 160)
+            a.LineWidth = 3
+            a.SetLine(140, 140, 40, 40)
             a.Moveable = False
             a.Resizable = False
             a.Stylable = False

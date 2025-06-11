@@ -1,4 +1,4 @@
-/****** Tables for RAD PDF Version 3.x ******/
+/****** Tables for RAD PDF Version 3.x / 4.x ******/
 SET ANSI_NULLS ON
 GO
 SET ANSI_PADDING ON

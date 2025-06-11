@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CS", "CS_WebForms\", "{B6CDEA03-2528-449B-8319-25B698087657}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CS_WebForms", "CS_WebForms\", "{B6CDEA03-2528-449B-8319-25B698087657}"
 	ProjectSection(WebsiteProperties) = preProject
 		Frontpage = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
@@ -42,7 +42,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CS_UI", "CS_UI\", "{4A51B33
 		VWDPort = "54571"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VB", "VB_WebForms\", "{9EFBB228-83E1-4F69-B771-F607CF81CDDF}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VB_WebForms", "VB_WebForms\", "{9EFBB228-83E1-4F69-B771-F607CF81CDDF}"
 	ProjectSection(WebsiteProperties) = preProject
 		Frontpage = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
