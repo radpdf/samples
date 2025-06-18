@@ -55,7 +55,7 @@ Set-ItemProperty -Path $RegistryPathRendering -Name "RenderCacheTimeout" -Value 
 # Set up WCF
 New-Item $RegistryPathWcf -Force
 Set-ItemProperty -Path $RegistryPathWcf -Name "ServicePort" -Value 18104 -Type Dword -Force
-Set-ItemProperty -Path $RegistryPathWcf -Name "UseImpersonation" -Value 0xFFFFFFFF -Type Dword -Force
+Set-ItemProperty -Path $RegistryPathWcf -Name "UseImpersonation" -Value 0x1 -Type Dword -Force
 
 # Start RAD PDF System Service
 Start-Service -Name "RadPdfService"
