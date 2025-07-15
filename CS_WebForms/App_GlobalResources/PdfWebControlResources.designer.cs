@@ -1060,6 +1060,114 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Document Information.
+        /// </summary>
+        internal static string DocumentInfo {
+            get {
+                return ResourceManager.GetString("DocumentInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Author.
+        /// </summary>
+        internal static string DocumentInfoAuthor {
+            get {
+                return ResourceManager.GetString("DocumentInfoAuthor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        internal static string DocumentInfoKeywords {
+            get {
+                return ResourceManager.GetString("DocumentInfoKeywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page Size.
+        /// </summary>
+        internal static string DocumentInfoPageSize {
+            get {
+                return ResourceManager.GetString("DocumentInfoPageSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subject.
+        /// </summary>
+        internal static string DocumentInfoSubject {
+            get {
+                return ResourceManager.GetString("DocumentInfoSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        internal static string DocumentInfoTitle {
+            get {
+                return ResourceManager.GetString("DocumentInfoTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Document Security.
+        /// </summary>
+        internal static string DocumentSecurity {
+            get {
+                return ResourceManager.GetString("DocumentSecurity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt.
+        /// </summary>
+        internal static string DocumentSecurityEncrypt {
+            get {
+                return ResourceManager.GetString("DocumentSecurityEncrypt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string DocumentSecurityPassword {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm.
+        /// </summary>
+        internal static string DocumentSecurityPasswordConfirm {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPasswordConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Passwords do not match.
+        /// </summary>
+        internal static string DocumentSecurityPasswordErrorMatch {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPasswordErrorMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter a valid password.
+        /// </summary>
+        internal static string DocumentSecurityPasswordErrorMissing {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPasswordErrorMissing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Upload Document.
         /// </summary>
         internal static string Empty {
@@ -1236,6 +1344,15 @@ namespace Resources {
         internal static string KeywordPage {
             get {
                 return ResourceManager.GetString("KeywordPage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string KeywordPassword {
+            get {
+                return ResourceManager.GetString("KeywordPassword", resourceCulture);
             }
         }
         

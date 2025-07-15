@@ -272,6 +272,10 @@
     <value>Page</value>
     <comment>Keyword used for "Page"</comment>
   </data>
+  <data name="KeywordPassword" xml:space="preserve">
+    <value>Password</value>
+    <comment>Keyword used for "Password"</comment>
+  </data>
   <data name="KeywordPrint" xml:space="preserve">
     <value>Print</value>
     <comment>Keyword used for "Print"</comment>
@@ -1643,5 +1647,53 @@
   <data name="PropertiesObjectFieldTypeSignature" xml:space="preserve">
     <value>Signature</value>
     <comment>Properties dialog text for Signature Form Field type</comment>
+  </data>
+  <data name="DocumentInfo" xml:space="preserve">
+    <value>Document Information</value>
+    <comment>Document info dialog heading</comment>
+  </data>
+  <data name="DocumentInfoTitle" xml:space="preserve">
+    <value>Title</value>
+    <comment>Document info dialog text for its Title metadata</comment>
+  </data>
+  <data name="DocumentInfoAuthor" xml:space="preserve">
+    <value>Author</value>
+    <comment>Document info dialog text for its Author metadata</comment>
+  </data>
+  <data name="DocumentInfoSubject" xml:space="preserve">
+    <value>Subject</value>
+    <comment>Document info dialog text for its Subject metadata</comment>
+  </data>
+  <data name="DocumentInfoKeywords" xml:space="preserve">
+    <value>Title</value>
+    <comment>Document info dialog text for its Keywords metadata</comment>
+  </data>
+  <data name="DocumentInfoPageSize" xml:space="preserve">
+    <value>Page Size</value>
+    <comment>Document info dialog text for its Page Size</comment>
+  </data>
+  <data name="DocumentSecurity" xml:space="preserve">
+    <value>Document Security</value>
+    <comment>Document info dialog header</comment>
+  </data>
+  <data name="DocumentSecurityEncrypt" xml:space="preserve">
+    <value>Encrypt</value>
+    <comment>Document security dialog text for Encrypt</comment>
+  </data>
+  <data name="DocumentSecurityPassword" xml:space="preserve">
+    <value>Password</value>
+    <comment>Document security dialog text for Password</comment>
+  </data>
+  <data name="DocumentSecurityPasswordConfirm" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>Document security dialog text for Confirm</comment>
+  </data>
+  <data name="DocumentSecurityPasswordErrorMatch" xml:space="preserve">
+    <value>Passwords do not match</value>
+    <comment>Document security error message for mismatched passwords</comment>
+  </data>
+  <data name="DocumentSecurityPasswordErrorMissing" xml:space="preserve">
+    <value>Please enter a valid password</value>
+    <comment>Document security error message for missing password</comment>
   </data>
 </root>

@@ -880,6 +880,69 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sunday.
+        /// </summary>
+        public static string DateFormatDay1 {
+            get {
+                return ResourceManager.GetString("DateFormatDay1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monday.
+        /// </summary>
+        public static string DateFormatDay2 {
+            get {
+                return ResourceManager.GetString("DateFormatDay2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tuesday.
+        /// </summary>
+        public static string DateFormatDay3 {
+            get {
+                return ResourceManager.GetString("DateFormatDay3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wednesday.
+        /// </summary>
+        public static string DateFormatDay4 {
+            get {
+                return ResourceManager.GetString("DateFormatDay4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thursday.
+        /// </summary>
+        public static string DateFormatDay5 {
+            get {
+                return ResourceManager.GetString("DateFormatDay5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Friday.
+        /// </summary>
+        public static string DateFormatDay6 {
+            get {
+                return ResourceManager.GetString("DateFormatDay6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saturday.
+        /// </summary>
+        public static string DateFormatDay7 {
+            get {
+                return ResourceManager.GetString("DateFormatDay7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to January.
         /// </summary>
         public static string DateFormatMonth01 {
@@ -993,6 +1056,114 @@ namespace Resources {
         public static string DefaultObjectAnnotTextSubject {
             get {
                 return ResourceManager.GetString("DefaultObjectAnnotTextSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Document Information.
+        /// </summary>
+        public static string DocumentInfo {
+            get {
+                return ResourceManager.GetString("DocumentInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Author.
+        /// </summary>
+        public static string DocumentInfoAuthor {
+            get {
+                return ResourceManager.GetString("DocumentInfoAuthor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string DocumentInfoKeywords {
+            get {
+                return ResourceManager.GetString("DocumentInfoKeywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page Size.
+        /// </summary>
+        public static string DocumentInfoPageSize {
+            get {
+                return ResourceManager.GetString("DocumentInfoPageSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subject.
+        /// </summary>
+        public static string DocumentInfoSubject {
+            get {
+                return ResourceManager.GetString("DocumentInfoSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string DocumentInfoTitle {
+            get {
+                return ResourceManager.GetString("DocumentInfoTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Document Security.
+        /// </summary>
+        public static string DocumentSecurity {
+            get {
+                return ResourceManager.GetString("DocumentSecurity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt.
+        /// </summary>
+        public static string DocumentSecurityEncrypt {
+            get {
+                return ResourceManager.GetString("DocumentSecurityEncrypt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        public static string DocumentSecurityPassword {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm.
+        /// </summary>
+        public static string DocumentSecurityPasswordConfirm {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPasswordConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Passwords do not match.
+        /// </summary>
+        public static string DocumentSecurityPasswordErrorMatch {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPasswordErrorMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter a valid password.
+        /// </summary>
+        public static string DocumentSecurityPasswordErrorMissing {
+            get {
+                return ResourceManager.GetString("DocumentSecurityPasswordErrorMissing", resourceCulture);
             }
         }
         

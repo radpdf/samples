@@ -38,8 +38,8 @@ partial class lite_PDF_Editor : System.Web.UI.Page
               (PdfArrowShape)
               DocumentEditor1.Pages[0].CreateObject(PdfObjectCreatable.ShapeArrow);
             a.LineColor = new PdfColor(Color.Blue);
-            a.LineWidth = 2;
-            a.SetLine(200, 220, 40, 160);
+            a.LineWidth = 3;
+            a.SetLine(140, 140, 40, 40);
             a.Moveable = false;
             a.Resizable = false;
             a.Stylable = false;
