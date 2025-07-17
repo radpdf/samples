@@ -1,0 +1,21 @@
+﻿@page
+
+@{
+    ViewBag.Title = "RAD PDF Samples";
+}
+
+<h1>RAD PDF Samples</h1>
+<ul>
+	<li><a href="/Basic/">Basic (Lite Document)</a></li>
+	<li><a href="/RenderAtClient/">Render At Client (Lite Document)</a></li>
+	<li><a href="/SQL/">SQL Server Based Storage</a></li>
+</ul>
+<p>
+	By default, Lite Document samples use <i>MemoryLiteStorageProvider.cs</i> to replace the default Lite Document storage provider (the RAD PDF System Service).
+	<i>MemoryLiteStorageProvider.cs</i> is not recommended for production use.
+	Instead consider changing <i>CustomIntegrationProvider.cs</i> to use something like <i>BlobLiteStorageProvider.cs</i> (a sample code also provided here); it uses Azure's Storage Blob API.
+</p>
+<p>
+	Using the <i>PdfWebControl</i> instead of the <i>PdfWebControlLite</i> relies on a SQL Server database to manage sessions and store all necessary data.
+	This is a good option for customers who wish to use RAD PDF's original, 'built-in' storage option.
+</p>
