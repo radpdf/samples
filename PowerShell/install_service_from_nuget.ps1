@@ -7,7 +7,7 @@
 $RegistryPathBase = "HKLM:\SOFTWARE\Red Software\RadPdf\"
 $RegistryPathInstall = $RegistryPathBase + "Install"
 $RegistryPathRendering = $RegistryPathBase + "Rendering"
-$RegistryPathWcf= $RegistryPathBase + "Wcf"
+$RegistryPathWcf = $RegistryPathBase + "Wcf"
 
 $RenderCacheLocation = "$Env:ProgramData\RadPdf\Cache\"
 $RenderCacheLocationAr = New-Object System.Security.AccessControl.FileSystemAccessRule("Users", "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
