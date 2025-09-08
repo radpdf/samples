@@ -972,9 +972,21 @@
     <value>Line Width</value>
     <comment>Property text for Line Object Width</comment>
   </data>
+  <data name="PropertiesObjectPenColor" xml:space="preserve">
+    <value>Pen Color</value>
+    <comment>Property text for Line Width</comment>
+  </data>
+  <data name="PropertiesObjectPenWidth" xml:space="preserve">
+    <value>Pen Width</value>
+    <comment>Property text for Pen Width</comment>
+  </data>
   <data name="PropertiesObjectNone" xml:space="preserve">
     <value>There are no additional properties to set.</value>
     <comment>Property text for Object with no properties</comment>
+  </data>
+  <data name="PropertiesObjectSignaturePopup" xml:space="preserve">
+    <value>Popup Style</value>
+    <comment>Property text for Signature with a popup style</comment>
   </data>
   <data name="PropertiesObjectUnlock" xml:space="preserve">
     <value>Unlock Object</value>
@@ -1468,6 +1480,10 @@
     <value>Drop File Here</value>
     <comment>Append Dialog File Drop Text</comment>
   </data>
+  <data name="AlertPasswordIncorrect" xml:space="preserve">
+    <value>Incorrect password.</value>
+    <comment>Alert message when password is incorrect</comment>
+  </data>
   <data name="AlertUploadError" xml:space="preserve">
     <value>Error uploading file</value>
     <comment>Alert popup when an appending error occurs</comment>
@@ -1585,8 +1601,8 @@
     <comment>Property text for Object Font Underline (full)</comment>
   </data>
   <data name="PropertiesObjectRedactText" xml:space="preserve">
-    <value>Redact Text (experimental)</value>
-    <comment>Property text for Object Redacting Text inside the area of the object - this feature is experimental and may not function as expected</comment>
+    <value>Redact Text</value>
+    <comment>Property text for Object Redacting Text inside the area of the object - this feature has important limitations and may not remove all content</comment>
   </data>
   <data name="SideBarComments" xml:space="preserve">
     <value>View Comments</value>
