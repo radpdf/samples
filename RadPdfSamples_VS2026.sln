@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11005.162
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_WebForms", "CS_WebForms\CS_WebForms.csproj", "{DF2831A5-1A42-4BA5-BAE9-FE1865977579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_MVC5", "CS_MVC5\CS_MVC5.csproj", "{E3B1713B-9634-4B60-889C-241BA46536B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_UI", "CS_UI\CS_UI.csproj", "{393525BD-A94D-405F-8723-6FD0D878F747}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_WebForms", "VB_WebForms\VB_WebForms.vbproj", "{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadPdfNet8Demo", "CS_NET8\RadPdfNet8Demo.csproj", "{A316F029-9A53-44F9-B350-2EDE1D600650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadPdfNet8DemoNoService", "CS_NET8_No_Service\RadPdfNet8DemoNoService.csproj", "{6076E7FB-0EEB-D319-E929-E51309347307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadPdfNet9Demo", "CS_NET9\RadPdfNet9Demo.csproj", "{8D0E047F-60E1-9FA7-F4EA-14DCFC9C8BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadPdfNet10Demo", "CS_NET10\RadPdfNet10Demo.csproj", "{013DB996-7954-249E-ED80-E4B27B00550B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadPdfNet10DemoNoService", "CS_NET10_No_Service\RadPdfNet10DemoNoService.csproj", "{B4BAE386-9EDA-0E92-D246-8688D2C4CFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF2831A5-1A42-4BA5-BAE9-FE1865977579}.Debug|x86.ActiveCfg = Debug|x86
+		{DF2831A5-1A42-4BA5-BAE9-FE1865977579}.Debug|x86.Build.0 = Debug|x86
+		{DF2831A5-1A42-4BA5-BAE9-FE1865977579}.Release|x86.ActiveCfg = Release|x86
+		{DF2831A5-1A42-4BA5-BAE9-FE1865977579}.Release|x86.Build.0 = Release|x86
+		{E3B1713B-9634-4B60-889C-241BA46536B9}.Debug|x86.ActiveCfg = Debug|x86
+		{E3B1713B-9634-4B60-889C-241BA46536B9}.Debug|x86.Build.0 = Debug|x86
+		{E3B1713B-9634-4B60-889C-241BA46536B9}.Release|x86.ActiveCfg = Release|x86
+		{E3B1713B-9634-4B60-889C-241BA46536B9}.Release|x86.Build.0 = Release|x86
+		{393525BD-A94D-405F-8723-6FD0D878F747}.Debug|x86.ActiveCfg = Debug|x86
+		{393525BD-A94D-405F-8723-6FD0D878F747}.Debug|x86.Build.0 = Debug|x86
+		{393525BD-A94D-405F-8723-6FD0D878F747}.Release|x86.ActiveCfg = Release|x86
+		{393525BD-A94D-405F-8723-6FD0D878F747}.Release|x86.Build.0 = Release|x86
+		{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}.Debug|x86.ActiveCfg = Debug|x86
+		{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}.Debug|x86.Build.0 = Debug|x86
+		{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}.Release|x86.ActiveCfg = Release|x86
+		{2AEBC96F-6F8F-42DD-89B4-85ADF24E4475}.Release|x86.Build.0 = Release|x86
+		{A316F029-9A53-44F9-B350-2EDE1D600650}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A316F029-9A53-44F9-B350-2EDE1D600650}.Debug|x86.Build.0 = Debug|Any CPU
+		{A316F029-9A53-44F9-B350-2EDE1D600650}.Release|x86.ActiveCfg = Release|Any CPU
+		{A316F029-9A53-44F9-B350-2EDE1D600650}.Release|x86.Build.0 = Release|Any CPU
+		{6076E7FB-0EEB-D319-E929-E51309347307}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6076E7FB-0EEB-D319-E929-E51309347307}.Debug|x86.Build.0 = Debug|Any CPU
+		{6076E7FB-0EEB-D319-E929-E51309347307}.Release|x86.ActiveCfg = Release|Any CPU
+		{6076E7FB-0EEB-D319-E929-E51309347307}.Release|x86.Build.0 = Release|Any CPU
+		{8D0E047F-60E1-9FA7-F4EA-14DCFC9C8BAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8D0E047F-60E1-9FA7-F4EA-14DCFC9C8BAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{8D0E047F-60E1-9FA7-F4EA-14DCFC9C8BAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{8D0E047F-60E1-9FA7-F4EA-14DCFC9C8BAE}.Release|x86.Build.0 = Release|Any CPU
+		{013DB996-7954-249E-ED80-E4B27B00550B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{013DB996-7954-249E-ED80-E4B27B00550B}.Debug|x86.Build.0 = Debug|Any CPU
+		{013DB996-7954-249E-ED80-E4B27B00550B}.Release|x86.ActiveCfg = Release|Any CPU
+		{013DB996-7954-249E-ED80-E4B27B00550B}.Release|x86.Build.0 = Release|Any CPU
+		{B4BAE386-9EDA-0E92-D246-8688D2C4CFDF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4BAE386-9EDA-0E92-D246-8688D2C4CFDF}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4BAE386-9EDA-0E92-D246-8688D2C4CFDF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4BAE386-9EDA-0E92-D246-8688D2C4CFDF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F10A6DE8-0EE4-4EC7-B146-0D11A1607A58}
+	EndGlobalSection
+EndGlobal
