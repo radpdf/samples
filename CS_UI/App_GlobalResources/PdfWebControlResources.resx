@@ -1712,4 +1712,48 @@
     <value>Please enter a valid password</value>
     <comment>Document security error message for missing password</comment>
   </data>
+  <data name="DocumentInfoCreator" xml:space="preserve">
+    <value>Creator</value>
+    <comment>Document info dialog text for its Creator metadata</comment>
+  </data>
+  <data name="DocumentInfoProducer" xml:space="preserve">
+    <value>Producer</value>
+    <comment>Document info dialog text for its Producer metadata</comment>
+  </data>
+  <data name="KeywordReply" xml:space="preserve">
+    <value>Reply</value>
+    <comment>Keyword used for "Reply"</comment>
+  </data>
+  <data name="SideCommentsEmpty" xml:space="preserve">
+    <value>No comments found</value>
+    <comment>Side panel text when document has no comments</comment>
+  </data>
+  <data name="KeywordCurrent" xml:space="preserve">
+    <value>Current</value>
+    <comment>Keyword used for "Current"</comment>
+  </data>
+  <data name="Keyword100P" xml:space="preserve">
+    <value>100%</value>
+    <comment>Keyword used for "100%"</comment>
+  </data>
+  <data name="KeywordAll" xml:space="preserve">
+    <value>All</value>
+    <comment>Keyword used for "All"</comment>
+  </data>
+  <data name="KeywordFit" xml:space="preserve">
+    <value>Fit</value>
+    <comment>Keyword used for "Fit"</comment>
+  </data>
+  <data name="KeywordAnnotation" xml:space="preserve">
+    <value>Annotation</value>
+    <comment>Keyword for "Annotation"</comment>
+  </data>
+  <data name="KeywordFile" xml:space="preserve">
+    <value>File</value>
+    <comment>Keyword for "File"</comment>
+  </data>
+  <data name="PropertiesObjectFieldTooltip" xml:space="preserve">
+    <value>Tooltip</value>
+    <comment>Properties dialog text for Form Field Tooltip</comment>
+  </data>
 </root>

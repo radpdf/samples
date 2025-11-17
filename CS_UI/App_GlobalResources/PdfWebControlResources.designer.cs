@@ -295,6 +295,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Incorrect password..
+        /// </summary>
+        internal static string AlertPasswordIncorrect {
+            get {
+                return ResourceManager.GetString("AlertPasswordIncorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You have read-only access to this document and may not preform this action..
         /// </summary>
         internal static string AlertReadOnly {
@@ -1078,6 +1087,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Creator.
+        /// </summary>
+        internal static string DocumentInfoCreator {
+            get {
+                return ResourceManager.GetString("DocumentInfoCreator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
         internal static string DocumentInfoKeywords {
@@ -1092,6 +1110,15 @@ namespace Resources {
         internal static string DocumentInfoPageSize {
             get {
                 return ResourceManager.GetString("DocumentInfoPageSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Producer.
+        /// </summary>
+        internal static string DocumentInfoProducer {
+            get {
+                return ResourceManager.GetString("DocumentInfoProducer", resourceCulture);
             }
         }
         
@@ -1213,11 +1240,38 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 100%.
+        /// </summary>
+        internal static string Keyword100P {
+            get {
+                return ResourceManager.GetString("Keyword100P", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All.
+        /// </summary>
+        internal static string KeywordAll {
+            get {
+                return ResourceManager.GetString("KeywordAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Angle.
         /// </summary>
         internal static string KeywordAngle {
             get {
                 return ResourceManager.GetString("KeywordAngle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Annotation.
+        /// </summary>
+        internal static string KeywordAnnotation {
+            get {
+                return ResourceManager.GetString("KeywordAnnotation", resourceCulture);
             }
         }
         
@@ -1249,6 +1303,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Current.
+        /// </summary>
+        internal static string KeywordCurrent {
+            get {
+                return ResourceManager.GetString("KeywordCurrent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Download.
         /// </summary>
         internal static string KeywordDownload {
@@ -1263,6 +1326,24 @@ namespace Resources {
         internal static string KeywordDraw {
             get {
                 return ResourceManager.GetString("KeywordDraw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File.
+        /// </summary>
+        internal static string KeywordFile {
+            get {
+                return ResourceManager.GetString("KeywordFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fit.
+        /// </summary>
+        internal static string KeywordFit {
+            get {
+                return ResourceManager.GetString("KeywordFit", resourceCulture);
             }
         }
         
@@ -1348,6 +1429,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string KeywordPassword {
+            get {
+                return ResourceManager.GetString("KeywordPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Previous.
         /// </summary>
         internal static string KeywordPrevious {
@@ -1371,6 +1461,15 @@ namespace Resources {
         internal static string KeywordRedo {
             get {
                 return ResourceManager.GetString("KeywordRedo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reply.
+        /// </summary>
+        internal static string KeywordReply {
+            get {
+                return ResourceManager.GetString("KeywordReply", resourceCulture);
             }
         }
         
@@ -2293,6 +2392,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tooltip.
+        /// </summary>
+        internal static string PropertiesObjectFieldTooltip {
+            get {
+                return ResourceManager.GetString("PropertiesObjectFieldTooltip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Field Type.
         /// </summary>
         internal static string PropertiesObjectFieldType {
@@ -2572,6 +2680,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pen Color.
+        /// </summary>
+        internal static string PropertiesObjectPenColor {
+            get {
+                return ResourceManager.GetString("PropertiesObjectPenColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pen Width.
+        /// </summary>
+        internal static string PropertiesObjectPenWidth {
+            get {
+                return ResourceManager.GetString("PropertiesObjectPenWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to View Object Properties.
         /// </summary>
         internal static string PropertiesObjectProperties {
@@ -2581,7 +2707,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Redact Text (experimental).
+        ///   Looks up a localized string similar to Redact Text.
         /// </summary>
         internal static string PropertiesObjectRedactText {
             get {
@@ -2595,6 +2721,15 @@ namespace Resources {
         internal static string PropertiesObjectRotation {
             get {
                 return ResourceManager.GetString("PropertiesObjectRotation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Popup Style.
+        /// </summary>
+        internal static string PropertiesObjectSignaturePopup {
+            get {
+                return ResourceManager.GetString("PropertiesObjectSignaturePopup", resourceCulture);
             }
         }
         
@@ -2766,6 +2901,15 @@ namespace Resources {
         internal static string SideBookmarksEmpty {
             get {
                 return ResourceManager.GetString("SideBookmarksEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No comments found.
+        /// </summary>
+        internal static string SideCommentsEmpty {
+            get {
+                return ResourceManager.GetString("SideCommentsEmpty", resourceCulture);
             }
         }
         

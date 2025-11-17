@@ -20,7 +20,7 @@
         function initRadPdf()
         {
             // Get id
-            var id = "<%= PdfWebControl1.ClientID%>";
+            var id = "<%=PdfWebControl1.ClientID%>";
             
             // Get api instance
             api = new PdfWebControlApi(id);
@@ -206,13 +206,12 @@
             Height="600px" 
             Width="100%" 
             OnClientLoad="initRadPdf();" 
-            HideBookmarks="True"
             HideBottomBar="True"
             HideDownloadButton="True"
             HideObjectPropertiesBar="True"
             HideSearchText="True"
             HideSideBar="True"
-            HideThumbnails="True"
+            HideSidePanels="True"
             HideToolsTabs="True"
             HideTopBar="True"
             ViewerPageLayoutDefault="SinglePageContinuous"

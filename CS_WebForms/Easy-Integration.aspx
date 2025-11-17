@@ -11,7 +11,7 @@
     function SetCustomImageTool(key)
     {
         //Get ID
-        var id = "<%= PdfWebControl1.ClientID%>";
+        var id = "<%=PdfWebControl1.ClientID%>";
         
         //Get api instance
         var api = new PdfWebControlApi(id);

@@ -14,8 +14,7 @@
         <radPdf:PdfWebControl id="PdfWebControl1" runat="server" height="600px" width="100%" 
             HideBottomBar="True"
             HideTopBar="True"
-            HideBookmarks="True"
-            HideThumbnails="True"
+            HideSidePanels="True"
             ViewerPageLayoutDefault="SinglePageContinuous"
             ViewerZoomDefault="ZoomFitWidth100" />
     </div>

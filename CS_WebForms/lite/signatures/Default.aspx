@@ -36,7 +36,7 @@
     <form id="form1" runat="server">
     <div>
         <radPdf:PdfWebControlLite id="PdfWebControl1" runat="server" height="600px" width="100%" OnClientLoad="initRadPdf();" 
-            HideToolsTabs="true" HideObjectPropertiesBar="true" HideBookmarks="true" HideThumbnails="true" />
+            HideToolsTabs="true" HideObjectPropertiesBar="true" HideSidePanels="true" />
     </div>
     </form>
 </body>
