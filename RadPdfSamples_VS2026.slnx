@@ -1,0 +1,22 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CS_MVC5/CS_MVC5.csproj" Id="e3b1713b-9634-4b60-889c-241ba46536b9">
+    <Platform Project="x86" />
+  </Project>
+  <Project Path="CS_NET10/RadPdfNet10Demo.csproj" />
+  <Project Path="CS_NET10_No_Service/RadPdfNet10DemoNoService.csproj" />
+  <Project Path="CS_NET8/RadPdfNet8Demo.csproj" />
+  <Project Path="CS_NET8_No_Service/RadPdfNet8DemoNoService.csproj" />
+  <Project Path="CS_NET9/RadPdfNet9Demo.csproj" />
+  <Project Path="CS_UI/CS_UI.csproj" Id="393525bd-a94d-405f-8723-6fd0d878f747">
+    <Platform Project="x86" />
+  </Project>
+  <Project Path="CS_WebForms/CS_WebForms.csproj" Id="df2831a5-1a42-4ba5-bae9-fe1865977579">
+    <Platform Project="x86" />
+  </Project>
+  <Project Path="VB_WebForms/VB_WebForms.vbproj" Id="2aebc96f-6f8f-42dd-89b4-85adf24e4475">
+    <Platform Project="x86" />
+  </Project>
+</Solution>
