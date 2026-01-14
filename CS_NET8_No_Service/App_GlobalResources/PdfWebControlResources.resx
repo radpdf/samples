@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
-  Copyright 2007 - 2025 Red Software.
+  Copyright 2007 - 2026 Red Software.
   All Rights Reserved.
 
   This file and its contents may only be used to the extent, in the manner and 
@@ -1755,5 +1755,149 @@
   <data name="PropertiesObjectFieldTooltip" xml:space="preserve">
     <value>Tooltip</value>
     <comment>Properties dialog text for Form Field Tooltip</comment>
+  </data>
+  <data name="KeywordField" xml:space="preserve">
+    <value>Field</value>
+    <comment>Keyword for "Field"</comment>
+  </data>
+  <data name="PropertiesObjectAnnotType" xml:space="preserve">
+    <value>Annotation Type</value>
+    <comment>Properties dialog text for Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotCaret" xml:space="preserve">
+    <value>Insert</value>
+    <comment>Properties dialog text for Caret Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotCircle" xml:space="preserve">
+    <value>Oval</value>
+    <comment>Properties dialog text for Circle (Oval) Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotFileLink" xml:space="preserve">
+    <value>File Link</value>
+    <comment>Properties dialog text for File Link Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotFreeText" xml:space="preserve">
+    <value>Free Text</value>
+    <comment>Properties dialog text for Free Text Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotHighlight" xml:space="preserve">
+    <value>Highlight</value>
+    <comment>Properties dialog text for Highlight Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotInk" xml:space="preserve">
+    <value>Ink</value>
+    <comment>Properties dialog text for Ink Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotLine" xml:space="preserve">
+    <value>Line</value>
+    <comment>Properties dialog text for Line Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotPageLink" xml:space="preserve">
+    <value>Page Link</value>
+    <comment>Properties dialog text for Page Link Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotPolygon" xml:space="preserve">
+    <value>Polygon</value>
+    <comment>Properties dialog text for Polygon Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotPolyline" xml:space="preserve">
+    <value>Polyline</value>
+    <comment>Properties dialog text for Polyline Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotPopup" xml:space="preserve">
+    <value>Popup</value>
+    <comment>Properties dialog text for Popup Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotSquare" xml:space="preserve">
+    <value>Rectangle</value>
+    <comment>Properties dialog text for Square (Rectangle) Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotSquiggly" xml:space="preserve">
+    <value>Squiggly</value>
+    <comment>Properties dialog text for Squiggly Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotStamp" xml:space="preserve">
+    <value>Stamp</value>
+    <comment>Properties dialog text for Stamp Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotStrikeout" xml:space="preserve">
+    <value>Strikeout</value>
+    <comment>Properties dialog text for Strikeout Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotText" xml:space="preserve">
+    <value>Sticky Note</value>
+    <comment>Properties dialog text for Text (Sticky Note) Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotUnderline" xml:space="preserve">
+    <value>Underline</value>
+    <comment>Properties dialog text for Underline Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotWebLink" xml:space="preserve">
+    <value>Web Link</value>
+    <comment>Properties dialog text for Web Link Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotWidget" xml:space="preserve">
+    <value>Form Field</value>
+    <comment>Properties dialog text for Form Field Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnot3D" xml:space="preserve">
+    <value>3D</value>
+    <comment>Properties dialog text for 3D Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotSound" xml:space="preserve">
+    <value>Sound</value>
+    <comment>Properties dialog text for Sound Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotFileAttachment" xml:space="preserve">
+    <value>File Attachment</value>
+    <comment>Properties dialog text for File Attachment Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotRedaction" xml:space="preserve">
+    <value>Redaction</value>
+    <comment>Properties dialog text for Redaction Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotWatermark" xml:space="preserve">
+    <value>Watermark</value>
+    <comment>Properties dialog text for Watermark Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotUnknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Properties dialog text for Unknown Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotMovie" xml:space="preserve">
+    <value>Movie</value>
+    <comment>Properties dialog text for Movie Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotPrinterMark" xml:space="preserve">
+    <value>Printer Mark</value>
+    <comment>Properties dialog text for Printer Mark Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotProjection" xml:space="preserve">
+    <value>Projection</value>
+    <comment>Properties dialog text for Projection Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotRichMedia" xml:space="preserve">
+    <value>Rich Media</value>
+    <comment>Properties dialog text for Rich Media Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotScreen" xml:space="preserve">
+    <value>Screen</value>
+    <comment>Properties dialog text for Screen Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectAnnotTrapNet" xml:space="preserve">
+    <value>Trap Network</value>
+    <comment>Properties dialog text for Trap Network Annotation type</comment>
+  </data>
+  <data name="PropertiesObjectFieldDefaultChecked" xml:space="preserve">
+    <value>Checked By Default</value>
+    <comment>Properties dialog text for Form Field Default Checked State</comment>
+  </data>
+  <data name="PropertiesObjectFieldDefaultValue" xml:space="preserve">
+    <value>Default Value</value>
+    <comment>Properties dialog text for Form Field Default Value</comment>
+  </data>
+  <data name="PropertiesObjectModified" xml:space="preserve">
+    <value>Modified</value>
+    <comment>Properties dialog text for Modified</comment>
   </data>
 </root>
