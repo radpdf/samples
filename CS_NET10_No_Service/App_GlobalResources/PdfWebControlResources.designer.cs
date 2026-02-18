@@ -1276,6 +1276,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Apply.
+        /// </summary>
+        public static string KeywordApply {
+            get {
+                return ResourceManager.GetString("KeywordApply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bottom.
         /// </summary>
         public static string KeywordBottom {
@@ -1825,11 +1834,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No View Options.
+        ///   Looks up a localized string similar to Page Layout.
         /// </summary>
-        public static string MenuViewNone {
+        public static string MenuViewPageLayout {
             get {
-                return ResourceManager.GetString("MenuViewNone", resourceCulture);
+                return ResourceManager.GetString("MenuViewPageLayout", resourceCulture);
             }
         }
         
@@ -1902,6 +1911,51 @@ namespace Resources {
         public static string MenuViewZoomFitDescription {
             get {
                 return ResourceManager.GetString("MenuViewZoomFitDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zoom To Fit Height.
+        /// </summary>
+        public static string MenuViewZoomFitHeightDescription {
+            get {
+                return ResourceManager.GetString("MenuViewZoomFitHeightDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to +.
+        /// </summary>
+        public static string MenuViewZoomIn {
+            get {
+                return ResourceManager.GetString("MenuViewZoomIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zoom In.
+        /// </summary>
+        public static string MenuViewZoomInDescription {
+            get {
+                return ResourceManager.GetString("MenuViewZoomInDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        public static string MenuViewZoomOut {
+            get {
+                return ResourceManager.GetString("MenuViewZoomOut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zoom Out.
+        /// </summary>
+        public static string MenuViewZoomOutDescription {
+            get {
+                return ResourceManager.GetString("MenuViewZoomOutDescription", resourceCulture);
             }
         }
         

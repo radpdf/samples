@@ -240,6 +240,10 @@
     <value>Select PDF Text Tool</value>
     <comment>Button Description used for Select Text</comment>
   </data>
+  <data name="KeywordApply" xml:space="preserve">
+    <value>Apply</value>
+    <comment>Keyword used for "Apply"</comment>
+  </data>
   <data name="KeywordCancel" xml:space="preserve">
     <value>Cancel</value>
     <comment>Keyword used for "Cancel"</comment>
@@ -388,9 +392,9 @@
     <value>View</value>
     <comment>View Menu Text</comment>
   </data>
-  <data name="MenuViewNone" xml:space="preserve">
-    <value>No View Options</value>
-    <comment>View Menu Empty Text</comment>
+  <data name="MenuViewPageLayout" xml:space="preserve">
+    <value>Page Layout</value>
+    <comment>View Menu Page Layout Text</comment>
   </data>
   <data name="MenuViewZoom100" xml:space="preserve">
     <value>100%</value>
@@ -398,7 +402,7 @@
   </data>
   <data name="MenuViewZoom100Description" xml:space="preserve">
     <value>Zoom To 100%</value>
-    <comment>View Menu Zoom 100% Description Text</comment>
+    <comment>View Menu Zoom 100% Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
   </data>
   <data name="MenuViewZoom200" xml:space="preserve">
     <value>200%</value>
@@ -406,7 +410,7 @@
   </data>
   <data name="MenuViewZoom200Description" xml:space="preserve">
     <value>Zoom To 200%</value>
-    <comment>View Menu Zoom 200% Description Text</comment>
+    <comment>View Menu Zoom 200% Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
   </data>
   <data name="MenuViewZoom50" xml:space="preserve">
     <value>50%</value>
@@ -414,7 +418,7 @@
   </data>
   <data name="MenuViewZoom50Description" xml:space="preserve">
     <value>Zoom To 50%</value>
-    <comment>View Menu Zoom 50% Description Text</comment>
+    <comment>View Menu Zoom 50% Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
   </data>
   <data name="MenuViewZoomFit" xml:space="preserve">
     <value>Fit</value>
@@ -422,7 +426,23 @@
   </data>
   <data name="MenuViewZoomFitDescription" xml:space="preserve">
     <value>Zoom To Fit Width</value>
-    <comment>View Menu Zoom Fit Description Text</comment>
+    <comment>View Menu Zoom Fit Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
+  </data>
+  <data name="MenuViewZoomIn" xml:space="preserve">
+    <value>+</value>
+    <comment>View Menu Zoom In Text</comment>
+  </data>
+  <data name="MenuViewZoomInDescription" xml:space="preserve">
+    <value>Zoom In</value>
+    <comment>View Menu Zoom In Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
+  </data>
+  <data name="MenuViewZoomOut" xml:space="preserve">
+    <value>-</value>
+    <comment>View Menu Zoom Out Text</comment>
+  </data>
+  <data name="MenuViewZoomOutDescription" xml:space="preserve">
+    <value>Zoom Out</value>
+    <comment>View Menu Zoom Out Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
   </data>
   <data name="SideBarBookmarks" xml:space="preserve">
     <value>View Bookmarks</value>
@@ -1899,5 +1919,9 @@
   <data name="PropertiesObjectModified" xml:space="preserve">
     <value>Modified</value>
     <comment>Properties dialog text for Modified</comment>
+  </data>
+  <data name="MenuViewZoomFitHeightDescription" xml:space="preserve">
+    <value>Zoom To Fit Height</value>
+    <comment>View Menu Zoom Fit Height Description Text (setting an empty string will hide the zoom option on the view menu)</comment>
   </data>
 </root>
