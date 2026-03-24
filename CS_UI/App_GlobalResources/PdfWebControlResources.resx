@@ -504,20 +504,32 @@
     <value>Please be patient, this may take a minute</value>
     <comment>Status popup description when waiting (Saving or Printing)</comment>
   </data>
+  <data name="TipCopiedText" xml:space="preserve">
+    <value>Text copied. &lt;b&gt;Click here to exit text selection mode.&lt;/b&gt;</value>
+    <comment>Tip displayed when the user (on mobile) has copied text to the clipboard. An empty string will hide this tip.</comment>
+  </data>
   <data name="TipCopyText" xml:space="preserve">
-    <value>Text selected. Press {0} to place on clipboard. &lt;b&gt;Click here to disable.&lt;/b&gt;</value>
-    <comment>Tip displayed when the user can copy text ({0} is replaced with the system copy command key combination). An empty string will hide this tip.</comment>
+    <value>Text selected. &lt;b&gt;Click here to copy.&lt;/b&gt;</value>
+    <comment>Tip displayed when the user can copy text by clicking. An empty string will hide this tip.</comment>
+  </data>
+  <data name="TipCopyTextMac" xml:space="preserve">
+    <value>Text selected. Press Command (&#8984;)-C or &lt;b&gt;click here to copy to clipboard&lt;/b&gt;.</value>
+    <comment>Tip displayed when the user (on a Mac device with keyboard) can copy text. An empty string will hide this tip.</comment>
+  </data>
+  <data name="TipCopyTextWin" xml:space="preserve">
+    <value>Text selected. Press Ctrl+C or &lt;b&gt;click here to copy to clipboard&lt;/b&gt;.</value>
+    <comment>Tip displayed when the user (on a Windows device with keyboard) can copy text. An empty string will hide this tip.</comment>
   </data>
   <data name="TipDownloadIE6" xml:space="preserve">
     <value>If using Internet Explorer 6, you should click Save, not Open, at the file prompt.</value>
     <comment>Tip displayed when the user can download a PDF using Internet Explorer 6</comment>
   </data>
   <data name="TipNewObject" xml:space="preserve">
-    <value>Click and drag on page to insert a new object. &lt;b&gt;Click here to disable.&lt;/b&gt;</value>
+    <value>Click and drag on page to insert a new object. &lt;b&gt;Click here to exit mode.&lt;/b&gt;</value>
     <comment>Tip displayed when the user can add a new object using the mouse. An empty string will hide this tip.</comment>
   </data>
   <data name="TipSelectText" xml:space="preserve">
-    <value>You are in text selection mode. &lt;b&gt;Click here to disable text selection mode.&lt;/b&gt;</value>
+    <value>Text selection mode active. &lt;b&gt;Click here to exit.&lt;/b&gt;</value>
     <comment>Tip displayed when the user can select text using the mouse. An empty string will hide this tip.</comment>
   </data>
   <data name="ToolAnnotCaret" xml:space="preserve">
@@ -1321,7 +1333,7 @@
     <comment>Button Description used for Hand Scroll</comment>
   </data>
   <data name="TipHandScroll" xml:space="preserve">
-    <value>You are in hand scroll mode. &lt;b&gt;Click here to disable hand scroll mode.&lt;/b&gt;</value>
+    <value>Hand scroll mode active. &lt;b&gt;Click here to exit.&lt;/b&gt;</value>
     <comment>Tip displayed when the user can scroll the page using the mouse. An empty string will hide this tip.</comment>
   </data>
   <data name="AlertTextUnrendered" xml:space="preserve">

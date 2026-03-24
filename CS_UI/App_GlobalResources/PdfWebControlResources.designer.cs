@@ -3445,11 +3445,38 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text selected. Press {0} to place on clipboard. &lt;b&gt;Click here to disable.&lt;/b&gt;.
+        ///   Looks up a localized string similar to Text copied. &lt;b&gt;Click here to exit text selection mode.&lt;/b&gt;.
+        /// </summary>
+        internal static string TipCopiedText {
+            get {
+                return ResourceManager.GetString("TipCopiedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text selected. &lt;b&gt;Click here to copy.&lt;/b&gt;.
         /// </summary>
         internal static string TipCopyText {
             get {
                 return ResourceManager.GetString("TipCopyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text selected. Press Command (⌘)-C or &lt;b&gt;click here to copy to clipboard&lt;/b&gt;..
+        /// </summary>
+        internal static string TipCopyTextMac {
+            get {
+                return ResourceManager.GetString("TipCopyTextMac", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text selected. Press Ctrl+C or &lt;b&gt;click here to copy to clipboard&lt;/b&gt;..
+        /// </summary>
+        internal static string TipCopyTextWin {
+            get {
+                return ResourceManager.GetString("TipCopyTextWin", resourceCulture);
             }
         }
         
@@ -3481,7 +3508,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are in hand scroll mode. &lt;b&gt;Click here to disable hand scroll mode.&lt;/b&gt;.
+        ///   Looks up a localized string similar to Hand scroll mode active. &lt;b&gt;Click here to exit.&lt;/b&gt;.
         /// </summary>
         internal static string TipHandScroll {
             get {
@@ -3490,7 +3517,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Click and drag on page to insert a new object. &lt;b&gt;Click here to disable.&lt;/b&gt;.
+        ///   Looks up a localized string similar to Click and drag on page to insert a new object. &lt;b&gt;Click here to exit mode.&lt;/b&gt;.
         /// </summary>
         internal static string TipNewObject {
             get {
@@ -3499,7 +3526,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are in text selection mode. &lt;b&gt;Click here to disable text selection mode.&lt;/b&gt;.
+        ///   Looks up a localized string similar to Text selection mode active. &lt;b&gt;Click here to exit.&lt;/b&gt;.
         /// </summary>
         internal static string TipSelectText {
             get {
