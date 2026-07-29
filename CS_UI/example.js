@@ -1,5 +1,7 @@
-﻿var api = null;
-var rpHeight = 0;
+﻿var api = null,
+    addedButtonType,
+    addedTextType,
+    rpHeight = 0;
 
 // Run the value of the menu item on select
 // Adapted from http://www.telerik.com/forums/accessing-the-original-menu-item-object-during-select-event
@@ -418,6 +420,14 @@ function initRadPdf(a, height)
             {
                 switch (addedButtonType)
                 {
+                    case "image":
+                        evt.obj.setProperties(
+                            {
+                                fillColor : "#ffffff",
+                                isImage: true
+                            });
+                        break;
+
                     case "reset":
                         evt.obj.setProperties(
                             {
@@ -431,6 +441,20 @@ function initRadPdf(a, height)
                             {
                                 isSubmit: true,
                                 label: "Submit"
+                            });
+                        break;
+                }
+            }
+
+            if (evt.obj.getType() == api.ObjectType.TextField)
+            {
+                switch (addedTextType)
+                {
+                    case "date":
+                        evt.obj.setProperties(
+                            {
+                                dateFormat: "mmm d, yyyy",
+                                isDate : true
                             });
                         break;
                 }
@@ -534,6 +558,14 @@ function initRadPdf(a, height)
                                 value: function(){api.setMode(api.Mode.InsertListField);}
                             },
                             {
+                                text: "Date Field",
+                                value: function(){api.setMode(api.Mode.InsertTextField);addedTextType="date";}
+                            },
+                            {
+                                text: "Image Button",
+                                value: function(){api.setMode(api.Mode.InsertButtonField);addedButtonType="image";}
+                            },
+                            {
                                 text: "Reset Button",
                                 value: function(){api.setMode(api.Mode.InsertButtonField);addedButtonType="reset";}
                             },
@@ -573,6 +605,10 @@ function initRadPdf(a, height)
                         value: function(){api.setMode(api.Mode.InsertTextAnnotation);}
                     },
                     {
+                        text: "Free Text",
+                        value: function(){api.setMode(api.Mode.InsertFreeTextAnnotation);}
+                    },
+                    {
                         text: "Highlight",
                         value: function(){api.setMode(api.Mode.InsertHighlightAnnotation);}
                     },
@@ -587,6 +623,10 @@ function initRadPdf(a, height)
                     {
                         text: "Rectangle",
                         value: function(){api.setMode(api.Mode.InsertSquareAnnotation);}
+                    },
+                    {
+                        text: "Squiggly",
+                        value: function(){api.setMode(api.Mode.InsertSquigglyAnnotation);}
                     },
                     {
                         text: "Strikeout",

@@ -16,7 +16,7 @@
       },
       "hotReloadEnabled" : false
     },
-    "RadPdfNet6Demo": {
+    "RadPdfNet10Demo": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
