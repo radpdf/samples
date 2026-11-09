@@ -142,11 +142,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Object type loaded is an animated gif and can not be used..
+        ///   Looks up a localized string similar to Object type loaded is an animated image and can not be used..
         /// </summary>
-        internal static string AlertObjectImageErrorAnimatedGif {
+        internal static string AlertObjectImageErrorAnimated {
             get {
-                return ResourceManager.GetString("AlertObjectImageErrorAnimatedGif", resourceCulture);
+                return ResourceManager.GetString("AlertObjectImageErrorAnimated", resourceCulture);
             }
         }
         

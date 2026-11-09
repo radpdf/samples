@@ -1240,9 +1240,9 @@
     <value>File is not a suppported file type.</value>
     <comment>Alert popup when an appending error occurs because the uploaded data is not a supported type</comment>
   </data>
-  <data name="AlertObjectImageErrorAnimatedGif" xml:space="preserve">
-    <value>Object type loaded is an animated gif and can not be used.</value>
-    <comment>Alert popup when an image object attempts to use an animated gif</comment>
+  <data name="AlertObjectImageErrorAnimated" xml:space="preserve">
+    <value>This image is animated and can not be used.</value>
+    <comment>Alert popup when an image object attempts to use an animated gif / webp image</comment>
   </data>
   <data name="AlertObjectImageErrorUnsupported" xml:space="preserve">
     <value>Object type loaded is not recognized and can not be used.</value>
